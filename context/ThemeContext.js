@@ -17,8 +17,7 @@ const getPreferredTheme = () => {
     return storedTheme;
   }
 
-  const media = window.matchMedia("(prefers-color-scheme: dark)");
-  return media.matches ? "dark" : "light";
+  return "light";
 };
 
 export const ThemeProvider = ({ children }) => {
@@ -33,23 +32,13 @@ export const ThemeProvider = ({ children }) => {
       return;
     }
 
-    document.documentElement.dataset.theme = theme;
+    if (theme === "light") {
+      delete document.documentElement.dataset.theme;
+    } else {
+      document.documentElement.dataset.theme = theme;
+    }
     window.localStorage.setItem(STORAGE_KEY, theme);
   }, [theme]);
-
-  useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
-    const media = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleChange = (event) => {
-      setTheme(event.matches ? "dark" : "light");
-    };
-
-    media.addEventListener("change", handleChange);
-    return () => media.removeEventListener("change", handleChange);
-  }, []);
 
   const toggleTheme = () => {
     setTheme((previous) => (previous === "light" ? "dark" : "light"));
@@ -63,4 +52,3 @@ export const ThemeProvider = ({ children }) => {
 };
 
 export const useTheme = () => useContext(ThemeContext);
-

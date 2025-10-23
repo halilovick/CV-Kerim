@@ -1,1399 +1,162 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 405;
-exports.ids = [405];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ 437:
+/***/ "./components/Education.js":
+/*!*********************************!*\
+  !*** ./components/Education.js ***!
+  \*********************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(290);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-const Education = ({ education  })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: "section",
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaGraduationCap, {}),
-                    " Education"
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "skill-group",
-                children: education.map((edu, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.article, {
-                        className: "education-card",
-                        initial: {
-                            opacity: 0,
-                            y: 24
-                        },
-                        whileInView: {
-                            opacity: 1,
-                            y: 0
-                        },
-                        viewport: {
-                            once: true
-                        },
-                        transition: {
-                            duration: 0.5,
-                            delay: index * 0.1
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                style: {
-                                    marginTop: 0
-                                },
-                                children: edu.degree
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                style: {
-                                    marginBottom: "0.4rem",
-                                    fontWeight: 600
-                                },
-                                children: edu.school
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                style: {
-                                    display: "flex",
-                                    flexWrap: "wrap",
-                                    gap: "0.75rem",
-                                    color: "var(--text-muted)"
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                        style: {
-                                            display: "inline-flex",
-                                            alignItems: "center",
-                                            gap: "0.4rem"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiCalendar, {}),
-                                            " ",
-                                            edu.dates
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                        style: {
-                                            display: "inline-flex",
-                                            alignItems: "center",
-                                            gap: "0.4rem"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMapPin, {}),
-                                            " ",
-                                            edu.location
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }, `${edu.school}-${edu.degree}-${index}`)
-                )
-            })
-        ]
-    })
-;
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Education);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Education = ({ education  })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        className: \"section\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaGraduationCap, {}, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                        lineNumber: 8,\n                        columnNumber: 7\n                    }, undefined),\n                    \" Education\"\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                lineNumber: 7,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"skill-group\",\n                children: education.map((edu, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.article, {\n                        className: \"education-card\",\n                        initial: {\n                            opacity: 0,\n                            y: 24\n                        },\n                        whileInView: {\n                            opacity: 1,\n                            y: 0\n                        },\n                        viewport: {\n                            once: true\n                        },\n                        transition: {\n                            duration: 0.5,\n                            delay: index * 0.1\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                style: {\n                                    marginTop: 0\n                                },\n                                children: edu.degree\n                            }, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                lineNumber: 20,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                style: {\n                                    marginBottom: \"0.4rem\",\n                                    fontWeight: 600\n                                },\n                                children: edu.school\n                            }, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                lineNumber: 21,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                style: {\n                                    display: \"flex\",\n                                    flexWrap: \"wrap\",\n                                    gap: \"0.75rem\",\n                                    color: \"var(--text-muted)\"\n                                },\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        style: {\n                                            display: \"inline-flex\",\n                                            alignItems: \"center\",\n                                            gap: \"0.4rem\"\n                                        },\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiCalendar, {}, void 0, false, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                                lineNumber: 31,\n                                                columnNumber: 15\n                                            }, undefined),\n                                            \" \",\n                                            edu.dates\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                        lineNumber: 30,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        style: {\n                                            display: \"inline-flex\",\n                                            alignItems: \"center\",\n                                            gap: \"0.4rem\"\n                                        },\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMapPin, {}, void 0, false, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                                lineNumber: 34,\n                                                columnNumber: 15\n                                            }, undefined),\n                                            \" \",\n                                            edu.location\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                        lineNumber: 33,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                                lineNumber: 22,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, `${edu.school}-${edu.degree}-${index}`, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, undefined)\n                )\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n                lineNumber: 10,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Education.js\",\n        lineNumber: 6,\n        columnNumber: 3\n    }, undefined)\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Education);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0VkdWNhdGlvbi5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBc0M7QUFDZTtBQUNMO0FBRWhELEtBQUssQ0FBQ0ksU0FBUyxJQUFJLENBQUMsQ0FBQ0MsU0FBUyxFQUFDLENBQUMsK0VBQzdCQyxDQUFPO1FBQUNDLFNBQVMsRUFBQyxDQUFTOzt3RkFDekJDLENBQUU7O2dHQUNBTCwyREFBZTs7Ozs7b0JBQUcsQ0FDckI7Ozs7Ozs7d0ZBQ0NNLENBQUc7Z0JBQUNGLFNBQVMsRUFBQyxDQUFhOzBCQUN6QkYsU0FBUyxDQUFDSyxHQUFHLEVBQUVDLEdBQUcsRUFBRUMsS0FBSywrRUFDdkJaLHlEQUFjO3dCQUViTyxTQUFTLEVBQUMsQ0FBZ0I7d0JBQzFCTyxPQUFPLEVBQUUsQ0FBQzs0QkFBQ0MsT0FBTyxFQUFFLENBQUM7NEJBQUVDLENBQUMsRUFBRSxFQUFFO3dCQUFDLENBQUM7d0JBQzlCQyxXQUFXLEVBQUUsQ0FBQzs0QkFBQ0YsT0FBTyxFQUFFLENBQUM7NEJBQUVDLENBQUMsRUFBRSxDQUFDO3dCQUFDLENBQUM7d0JBQ2pDRSxRQUFRLEVBQUUsQ0FBQzs0QkFBQ0MsSUFBSSxFQUFFLElBQUk7d0JBQUMsQ0FBQzt3QkFDeEJDLFVBQVUsRUFBRSxDQUFDOzRCQUFDQyxRQUFRLEVBQUUsR0FBRzs0QkFBRUMsS0FBSyxFQUFFVixLQUFLLEdBQUcsR0FBRzt3QkFBQyxDQUFDOzt3R0FFaERXLENBQUU7Z0NBQUNDLEtBQUssRUFBRSxDQUFDO29DQUFDQyxTQUFTLEVBQUUsQ0FBQztnQ0FBQyxDQUFDOzBDQUFHZCxHQUFHLENBQUNlLE1BQU07Ozs7Ozt3R0FDdkNDLENBQUM7Z0NBQUNILEtBQUssRUFBRSxDQUFDO29DQUFDSSxZQUFZLEVBQUUsQ0FBUTtvQ0FBRUMsVUFBVSxFQUFFLEdBQUc7Z0NBQUMsQ0FBQzswQ0FBR2xCLEdBQUcsQ0FBQ21CLE1BQU07Ozs7Ozt3R0FDakVyQixDQUFHO2dDQUNGZSxLQUFLLEVBQUUsQ0FBQztvQ0FDTk8sT0FBTyxFQUFFLENBQU07b0NBQ2ZDLFFBQVEsRUFBRSxDQUFNO29DQUNoQkMsR0FBRyxFQUFFLENBQVM7b0NBQ2RDLEtBQUssRUFBRSxDQUFtQjtnQ0FDNUIsQ0FBQzs7Z0hBRUFDLENBQUk7d0NBQUNYLEtBQUssRUFBRSxDQUFDOzRDQUFDTyxPQUFPLEVBQUUsQ0FBYTs0Q0FBRUssVUFBVSxFQUFFLENBQVE7NENBQUVILEdBQUcsRUFBRSxDQUFRO3dDQUFDLENBQUM7O3dIQUN6RWhDLHNEQUFVOzs7Ozs0Q0FBRyxDQUFDOzRDQUFDVSxHQUFHLENBQUMwQixLQUFLOzs7Ozs7O2dIQUUxQkYsQ0FBSTt3Q0FBQ1gsS0FBSyxFQUFFLENBQUM7NENBQUNPLE9BQU8sRUFBRSxDQUFhOzRDQUFFSyxVQUFVLEVBQUUsQ0FBUTs0Q0FBRUgsR0FBRyxFQUFFLENBQVE7d0NBQUMsQ0FBQzs7d0hBQ3pFL0Isb0RBQVE7Ozs7OzRDQUFHLENBQUM7NENBQUNTLEdBQUcsQ0FBQzJCLFFBQVE7Ozs7Ozs7Ozs7Ozs7OzBCQXJCdEIzQixHQUFHLENBQUNtQixNQUFNLENBQUMsQ0FBQyxFQUFFbkIsR0FBRyxDQUFDZSxNQUFNLENBQUMsQ0FBQyxFQUFFZCxLQUFLOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUE4Qm5ELGlFQUFlUixTQUFTLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnRlcmFjdGl2ZS1jdi8uL2NvbXBvbmVudHMvRWR1Y2F0aW9uLmpzP2E0ODgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgbW90aW9uIH0gZnJvbSBcImZyYW1lci1tb3Rpb25cIjtcbmltcG9ydCB7IEZpQ2FsZW5kYXIsIEZpTWFwUGluIH0gZnJvbSBcInJlYWN0LWljb25zL2ZpXCI7XG5pbXBvcnQgeyBGYUdyYWR1YXRpb25DYXAgfSBmcm9tIFwicmVhY3QtaWNvbnMvZmFcIjtcblxuY29uc3QgRWR1Y2F0aW9uID0gKHsgZWR1Y2F0aW9uIH0pID0+IChcbiAgPHNlY3Rpb24gY2xhc3NOYW1lPVwic2VjdGlvblwiPlxuICAgIDxoMj5cbiAgICAgIDxGYUdyYWR1YXRpb25DYXAgLz4gRWR1Y2F0aW9uXG4gICAgPC9oMj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cInNraWxsLWdyb3VwXCI+XG4gICAgICB7ZWR1Y2F0aW9uLm1hcCgoZWR1LCBpbmRleCkgPT4gKFxuICAgICAgICA8bW90aW9uLmFydGljbGVcbiAgICAgICAgICBrZXk9e2Ake2VkdS5zY2hvb2x9LSR7ZWR1LmRlZ3JlZX0tJHtpbmRleH1gfVxuICAgICAgICAgIGNsYXNzTmFtZT1cImVkdWNhdGlvbi1jYXJkXCJcbiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDI0IH19XG4gICAgICAgICAgd2hpbGVJblZpZXc9e3sgb3BhY2l0eTogMSwgeTogMCB9fVxuICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX1cbiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjUsIGRlbGF5OiBpbmRleCAqIDAuMSB9fVxuICAgICAgICA+XG4gICAgICAgICAgPGgzIHN0eWxlPXt7IG1hcmdpblRvcDogMCB9fT57ZWR1LmRlZ3JlZX08L2gzPlxuICAgICAgICAgIDxwIHN0eWxlPXt7IG1hcmdpbkJvdHRvbTogXCIwLjRyZW1cIiwgZm9udFdlaWdodDogNjAwIH19PntlZHUuc2Nob29sfTwvcD5cbiAgICAgICAgICA8ZGl2XG4gICAgICAgICAgICBzdHlsZT17e1xuICAgICAgICAgICAgICBkaXNwbGF5OiBcImZsZXhcIixcbiAgICAgICAgICAgICAgZmxleFdyYXA6IFwid3JhcFwiLFxuICAgICAgICAgICAgICBnYXA6IFwiMC43NXJlbVwiLFxuICAgICAgICAgICAgICBjb2xvcjogXCJ2YXIoLS10ZXh0LW11dGVkKVwiLFxuICAgICAgICAgICAgfX1cbiAgICAgICAgICA+XG4gICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBkaXNwbGF5OiBcImlubGluZS1mbGV4XCIsIGFsaWduSXRlbXM6IFwiY2VudGVyXCIsIGdhcDogXCIwLjRyZW1cIiB9fT5cbiAgICAgICAgICAgICAgPEZpQ2FsZW5kYXIgLz4ge2VkdS5kYXRlc31cbiAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGRpc3BsYXk6IFwiaW5saW5lLWZsZXhcIiwgYWxpZ25JdGVtczogXCJjZW50ZXJcIiwgZ2FwOiBcIjAuNHJlbVwiIH19PlxuICAgICAgICAgICAgICA8RmlNYXBQaW4gLz4ge2VkdS5sb2NhdGlvbn1cbiAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9tb3Rpb24uYXJ0aWNsZT5cbiAgICAgICkpfVxuICAgIDwvZGl2PlxuICA8L3NlY3Rpb24+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBFZHVjYXRpb247XG5cbiJdLCJuYW1lcyI6WyJtb3Rpb24iLCJGaUNhbGVuZGFyIiwiRmlNYXBQaW4iLCJGYUdyYWR1YXRpb25DYXAiLCJFZHVjYXRpb24iLCJlZHVjYXRpb24iLCJzZWN0aW9uIiwiY2xhc3NOYW1lIiwiaDIiLCJkaXYiLCJtYXAiLCJlZHUiLCJpbmRleCIsImFydGljbGUiLCJpbml0aWFsIiwib3BhY2l0eSIsInkiLCJ3aGlsZUluVmlldyIsInZpZXdwb3J0Iiwib25jZSIsInRyYW5zaXRpb24iLCJkdXJhdGlvbiIsImRlbGF5IiwiaDMiLCJzdHlsZSIsIm1hcmdpblRvcCIsImRlZ3JlZSIsInAiLCJtYXJnaW5Cb3R0b20iLCJmb250V2VpZ2h0Iiwic2Nob29sIiwiZGlzcGxheSIsImZsZXhXcmFwIiwiZ2FwIiwiY29sb3IiLCJzcGFuIiwiYWxpZ25JdGVtcyIsImRhdGVzIiwibG9jYXRpb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Education.js\n");
 
 /***/ }),
 
-/***/ 693:
+/***/ "./components/Experience.js":
+/*!**********************************!*\
+  !*** ./components/Experience.js ***!
+  \**********************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-const Experience = ({ experience  })=>{
-    const { 0: activeIndex , 1: setActiveIndex  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
-    const toggleIndex = (index)=>{
-        setActiveIndex((current)=>current === index ? null : index
-        );
-    };
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: "section",
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                children: "Work Experience"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "timeline",
-                children: experience.map((job, index)=>{
-                    const isActive = activeIndex === index;
-                    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-                        className: "timeline-item",
-                        initial: {
-                            opacity: 0,
-                            x: -30
-                        },
-                        whileInView: {
-                            opacity: 1,
-                            x: 0
-                        },
-                        viewport: {
-                            once: true
-                        },
-                        transition: {
-                            duration: 0.45,
-                            delay: index * 0.08
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "timeline-dot"
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "timeline-content",
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "timeline-header",
-                                        children: [
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                        children: job.title
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        style: {
-                                                            margin: "0.35rem 0 0",
-                                                            color: "var(--text-muted)"
-                                                        },
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                            children: job.company
-                                                        })
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: "timeline-meta",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                        children: job.dates
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                        children: job.location
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {
-                                        type: "button",
-                                        className: "timeline-toggle",
-                                        onClick: ()=>toggleIndex(index)
-                                        ,
-                                        "aria-expanded": isActive,
-                                        "aria-controls": `experience-details-${index}`,
-                                        whileTap: {
-                                            scale: 0.96
-                                        },
-                                        children: [
-                                            isActive ? "Hide Impact" : "View Impact",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.span, {
-                                                style: {
-                                                    display: "inline-flex",
-                                                    marginLeft: "0.5rem"
-                                                },
-                                                animate: {
-                                                    rotate: isActive ? 180 : 0
-                                                },
-                                                children: isActive ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiChevronUp, {}) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiChevronDown, {})
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {
-                                        initial: false,
-                                        children: isActive && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.ul, {
-                                            id: `experience-details-${index}`,
-                                            className: "timeline-responsibilities",
-                                            initial: {
-                                                height: 0,
-                                                opacity: 0
-                                            },
-                                            animate: {
-                                                height: "auto",
-                                                opacity: 1
-                                            },
-                                            exit: {
-                                                height: 0,
-                                                opacity: 0
-                                            },
-                                            transition: {
-                                                duration: 0.3
-                                            },
-                                            children: job.responsibilities.map((item, responsibilityIndex)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.li, {
-                                                    initial: {
-                                                        opacity: 0,
-                                                        x: -8
-                                                    },
-                                                    animate: {
-                                                        opacity: 1,
-                                                        x: 0
-                                                    },
-                                                    transition: {
-                                                        duration: 0.2,
-                                                        delay: responsibilityIndex * 0.05
-                                                    },
-                                                    children: item
-                                                }, `${job.company}-responsibility-${responsibilityIndex}`)
-                                            )
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    }, `${job.company}-${job.title}-${index}`));
-                })
-            })
-        ]
-    }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Experience = ({ experience  })=>{\n    const { 0: activeIndex , 1: setActiveIndex  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);\n    const toggleIndex = (index)=>{\n        setActiveIndex((current)=>current === index ? null : index\n        );\n    };\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        className: \"section\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: \"Work Experience\"\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"timeline\",\n                children: experience.map((job, index)=>{\n                    const isActive = activeIndex === index;\n                    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                        className: \"timeline-item\",\n                        initial: {\n                            opacity: 0,\n                            x: -30\n                        },\n                        whileInView: {\n                            opacity: 1,\n                            x: 0\n                        },\n                        viewport: {\n                            once: true\n                        },\n                        transition: {\n                            duration: 0.45,\n                            delay: index * 0.08\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"timeline-dot\"\n                            }, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                lineNumber: 28,\n                                columnNumber: 15\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"timeline-content\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"timeline-header\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                                        children: job.title\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                        lineNumber: 32,\n                                                        columnNumber: 21\n                                                    }, undefined),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                        style: {\n                                                            margin: \"0.35rem 0 0\",\n                                                            color: \"var(--text-muted)\"\n                                                        },\n                                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                                            children: job.company\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                            lineNumber: 34,\n                                                            columnNumber: 23\n                                                        }, undefined)\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                        lineNumber: 33,\n                                                        columnNumber: 21\n                                                    }, undefined)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                lineNumber: 31,\n                                                columnNumber: 19\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                className: \"timeline-meta\",\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                        children: job.dates\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                        lineNumber: 38,\n                                                        columnNumber: 21\n                                                    }, undefined),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                        children: job.location\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                        lineNumber: 39,\n                                                        columnNumber: 21\n                                                    }, undefined)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                lineNumber: 37,\n                                                columnNumber: 19\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                        lineNumber: 30,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {\n                                        type: \"button\",\n                                        className: \"timeline-toggle\",\n                                        onClick: ()=>toggleIndex(index)\n                                        ,\n                                        \"aria-expanded\": isActive,\n                                        \"aria-controls\": `experience-details-${index}`,\n                                        whileTap: {\n                                            scale: 0.96\n                                        },\n                                        children: [\n                                            isActive ? \"Hide Impact\" : \"View Impact\",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.span, {\n                                                style: {\n                                                    display: \"inline-flex\",\n                                                    marginLeft: \"0.5rem\"\n                                                },\n                                                animate: {\n                                                    rotate: isActive ? 180 : 0\n                                                },\n                                                children: isActive ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiChevronUp, {}, void 0, false, {\n                                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                    lineNumber: 56,\n                                                    columnNumber: 33\n                                                }, undefined) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiChevronDown, {}, void 0, false, {\n                                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                    lineNumber: 56,\n                                                    columnNumber: 51\n                                                }, undefined)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                lineNumber: 52,\n                                                columnNumber: 19\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                        lineNumber: 43,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {\n                                        initial: false,\n                                        children: isActive && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.ul, {\n                                            id: `experience-details-${index}`,\n                                            className: \"timeline-responsibilities\",\n                                            initial: {\n                                                height: 0,\n                                                opacity: 0\n                                            },\n                                            animate: {\n                                                height: \"auto\",\n                                                opacity: 1\n                                            },\n                                            exit: {\n                                                height: 0,\n                                                opacity: 0\n                                            },\n                                            transition: {\n                                                duration: 0.3\n                                            },\n                                            children: job.responsibilities.map((item, responsibilityIndex)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.li, {\n                                                    initial: {\n                                                        opacity: 0,\n                                                        x: -8\n                                                    },\n                                                    animate: {\n                                                        opacity: 1,\n                                                        x: 0\n                                                    },\n                                                    transition: {\n                                                        duration: 0.2,\n                                                        delay: responsibilityIndex * 0.05\n                                                    },\n                                                    children: item\n                                                }, `${job.company}-responsibility-${responsibilityIndex}`, false, {\n                                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                                    lineNumber: 71,\n                                                    columnNumber: 25\n                                                }, undefined)\n                                            )\n                                        }, void 0, false, {\n                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                            lineNumber: 62,\n                                            columnNumber: 21\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                        lineNumber: 60,\n                                        columnNumber: 17\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                                lineNumber: 29,\n                                columnNumber: 15\n                            }, undefined)\n                        ]\n                    }, `${job.company}-${job.title}-${index}`, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                        lineNumber: 20,\n                        columnNumber: 13\n                    }, undefined));\n                })\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Experience.js\",\n        lineNumber: 13,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUVuQixHQUFHLENBQUNhLEtBQUssQ0FBQyxDQUFDLEVBQUVwQixLQUFLOzs7OztnQkFpRS9DLENBQUM7Ozs7Ozs7Ozs7OztBQUlULENBQUM7QUFFRCxpRUFBZUwsVUFBVSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW50ZXJhY3RpdmUtY3YvLi9jb21wb25lbnRzL0V4cGVyaWVuY2UuanM/M2ZkMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgbW90aW9uLCBBbmltYXRlUHJlc2VuY2UgfSBmcm9tIFwiZnJhbWVyLW1vdGlvblwiO1xuaW1wb3J0IHsgRmlDaGV2cm9uRG93biwgRmlDaGV2cm9uVXAgfSBmcm9tIFwicmVhY3QtaWNvbnMvZmlcIjtcblxuY29uc3QgRXhwZXJpZW5jZSA9ICh7IGV4cGVyaWVuY2UgfSkgPT4ge1xuICBjb25zdCBbYWN0aXZlSW5kZXgsIHNldEFjdGl2ZUluZGV4XSA9IHVzZVN0YXRlKDApO1xuXG4gIGNvbnN0IHRvZ2dsZUluZGV4ID0gKGluZGV4KSA9PiB7XG4gICAgc2V0QWN0aXZlSW5kZXgoKGN1cnJlbnQpID0+IChjdXJyZW50ID09PSBpbmRleCA/IG51bGwgOiBpbmRleCkpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwic2VjdGlvblwiPlxuICAgICAgPGgyPldvcmsgRXhwZXJpZW5jZTwvaDI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpbWVsaW5lXCI+XG4gICAgICAgIHtleHBlcmllbmNlLm1hcCgoam9iLCBpbmRleCkgPT4ge1xuICAgICAgICAgIGNvbnN0IGlzQWN0aXZlID0gYWN0aXZlSW5kZXggPT09IGluZGV4O1xuXG4gICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDxtb3Rpb24uZGl2XG4gICAgICAgICAgICAgIGtleT17YCR7am9iLmNvbXBhbnl9LSR7am9iLnRpdGxlfS0ke2luZGV4fWB9XG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cInRpbWVsaW5lLWl0ZW1cIlxuICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IC0zMCB9fVxuICAgICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB4OiAwIH19XG4gICAgICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX1cbiAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC40NSwgZGVsYXk6IGluZGV4ICogMC4wOCB9fVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aW1lbGluZS1kb3RcIiAvPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpbWVsaW5lLWNvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpbWVsaW5lLWhlYWRlclwiPlxuICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgPGgzPntqb2IudGl0bGV9PC9oMz5cbiAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgbWFyZ2luOiBcIjAuMzVyZW0gMCAwXCIsIGNvbG9yOiBcInZhcigtLXRleHQtbXV0ZWQpXCIgfX0+XG4gICAgICAgICAgICAgICAgICAgICAgPHN0cm9uZz57am9iLmNvbXBhbnl9PC9zdHJvbmc+XG4gICAgICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aW1lbGluZS1tZXRhXCI+XG4gICAgICAgICAgICAgICAgICAgIDxzcGFuPntqb2IuZGF0ZXN9PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8c3Bhbj57am9iLmxvY2F0aW9ufTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgICAgPG1vdGlvbi5idXR0b25cbiAgICAgICAgICAgICAgICAgIHR5cGU9XCJidXR0b25cIlxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidGltZWxpbmUtdG9nZ2xlXCJcbiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHRvZ2dsZUluZGV4KGluZGV4KX1cbiAgICAgICAgICAgICAgICAgIGFyaWEtZXhwYW5kZWQ9e2lzQWN0aXZlfVxuICAgICAgICAgICAgICAgICAgYXJpYS1jb250cm9scz17YGV4cGVyaWVuY2UtZGV0YWlscy0ke2luZGV4fWB9XG4gICAgICAgICAgICAgICAgICB3aGlsZVRhcD17eyBzY2FsZTogMC45NiB9fVxuICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgIHtpc0FjdGl2ZSA/IFwiSGlkZSBJbXBhY3RcIiA6IFwiVmlldyBJbXBhY3RcIn1cbiAgICAgICAgICAgICAgICAgIDxtb3Rpb24uc3BhblxuICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBkaXNwbGF5OiBcImlubGluZS1mbGV4XCIsIG1hcmdpbkxlZnQ6IFwiMC41cmVtXCIgfX1cbiAgICAgICAgICAgICAgICAgICAgYW5pbWF0ZT17eyByb3RhdGU6IGlzQWN0aXZlID8gMTgwIDogMCB9fVxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICB7aXNBY3RpdmUgPyA8RmlDaGV2cm9uVXAgLz4gOiA8RmlDaGV2cm9uRG93biAvPn1cbiAgICAgICAgICAgICAgICAgIDwvbW90aW9uLnNwYW4+XG4gICAgICAgICAgICAgICAgPC9tb3Rpb24uYnV0dG9uPlxuXG4gICAgICAgICAgICAgICAgPEFuaW1hdGVQcmVzZW5jZSBpbml0aWFsPXtmYWxzZX0+XG4gICAgICAgICAgICAgICAgICB7aXNBY3RpdmUgJiYgKFxuICAgICAgICAgICAgICAgICAgICA8bW90aW9uLnVsXG4gICAgICAgICAgICAgICAgICAgICAgaWQ9e2BleHBlcmllbmNlLWRldGFpbHMtJHtpbmRleH1gfVxuICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInRpbWVsaW5lLXJlc3BvbnNpYmlsaXRpZXNcIlxuICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgaGVpZ2h0OiAwLCBvcGFjaXR5OiAwIH19XG4gICAgICAgICAgICAgICAgICAgICAgYW5pbWF0ZT17eyBoZWlnaHQ6IFwiYXV0b1wiLCBvcGFjaXR5OiAxIH19XG4gICAgICAgICAgICAgICAgICAgICAgZXhpdD17eyBoZWlnaHQ6IDAsIG9wYWNpdHk6IDAgfX1cbiAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjMgfX1cbiAgICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICAgIHtqb2IucmVzcG9uc2liaWxpdGllcy5tYXAoKGl0ZW0sIHJlc3BvbnNpYmlsaXR5SW5kZXgpID0+IChcbiAgICAgICAgICAgICAgICAgICAgICAgIDxtb3Rpb24ubGlcbiAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtgJHtqb2IuY29tcGFueX0tcmVzcG9uc2liaWxpdHktJHtyZXNwb25zaWJpbGl0eUluZGV4fWB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeDogLTggfX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB4OiAwIH19XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuMiwgZGVsYXk6IHJlc3BvbnNpYmlsaXR5SW5kZXggKiAwLjA1IH19XG4gICAgICAgICAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtfVxuICAgICAgICAgICAgICAgICAgICAgICAgPC9tb3Rpb24ubGk+XG4gICAgICAgICAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICAgICAgICAgIDwvbW90aW9uLnVsPlxuICAgICAgICAgICAgICAgICAgKX1cbiAgICAgICAgICAgICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L21vdGlvbi5kaXY+XG4gICAgICAgICAgKTtcbiAgICAgICAgfSl9XG4gICAgICA8L2Rpdj5cbiAgICA8L3NlY3Rpb24+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBFeHBlcmllbmNlO1xuXG4iXSwibmFtZXMiOlsidXNlU3RhdGUiLCJtb3Rpb24iLCJBbmltYXRlUHJlc2VuY2UiLCJGaUNoZXZyb25Eb3duIiwiRmlDaGV2cm9uVXAiLCJFeHBlcmllbmNlIiwiZXhwZXJpZW5jZSIsImFjdGl2ZUluZGV4Iiwic2V0QWN0aXZlSW5kZXgiLCJ0b2dnbGVJbmRleCIsImluZGV4IiwiY3VycmVudCIsInNlY3Rpb24iLCJjbGFzc05hbWUiLCJoMiIsImRpdiIsIm1hcCIsImpvYiIsImlzQWN0aXZlIiwiaW5pdGlhbCIsIm9wYWNpdHkiLCJ4Iiwid2hpbGVJblZpZXciLCJ2aWV3cG9ydCIsIm9uY2UiLCJ0cmFuc2l0aW9uIiwiZHVyYXRpb24iLCJkZWxheSIsInNwYW4iLCJoMyIsInRpdGxlIiwicCIsInN0eWxlIiwibWFyZ2luIiwiY29sb3IiLCJzdHJvbmciLCJjb21wYW55IiwiZGF0ZXMiLCJsb2NhdGlvbiIsImJ1dHRvbiIsInR5cGUiLCJvbkNsaWNrIiwiYXJpYS1leHBhbmRlZCIsImFyaWEtY29udHJvbHMiLCJ3aGlsZVRhcCIsInNjYWxlIiwiZGlzcGxheSIsIm1hcmdpbkxlZnQiLCJhbmltYXRlIiwicm90YXRlIiwidWwiLCJpZCIsImhlaWdodCIsImV4aXQiLCJyZXNwb25zaWJpbGl0aWVzIiwiaXRlbSIsInJlc3BvbnNpYmlsaXR5SW5kZXgiLCJsaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Experience.js\n");
 
 /***/ }),
 
-/***/ 673:
+/***/ "./components/Header.js":
+/*!******************************!*\
+  !*** ./components/Header.js ***!
+  \******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _context_ThemeContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(306);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-const Header = ({ name , title , contact , profilePicture , stats =[] , summarySnippet ,  })=>{
-    const { theme , toggleTheme  } = (0,_context_ThemeContext__WEBPACK_IMPORTED_MODULE_3__/* .useTheme */ .F)();
-    const isDark = theme === "dark";
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.header, {
-        className: "card hero-header",
-        initial: {
-            opacity: 0,
-            y: -30
-        },
-        animate: {
-            opacity: 1,
-            y: 0
-        },
-        transition: {
-            duration: 0.55,
-            ease: "easeOut"
-        },
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                style: {
-                    justifySelf: "end",
-                    width: "100%",
-                    display: "flex",
-                    justifyContent: "flex-end"
-                },
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "theme-toggle",
-                    type: "button",
-                    onClick: toggleTheme,
-                    "aria-label": `Switch to ${isDark ? "light" : "dark"} mode`,
-                    children: [
-                        isDark ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiSun, {
-                            size: 18
-                        }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMoon, {
-                            size: 18
-                        }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                            children: [
-                                isDark ? "Light" : "Dark",
-                                " Mode"
-                            ]
-                        })
-                    ]
-                })
-            }),
-            profilePicture && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.img, {
-                src: profilePicture,
-                alt: `${name} profile`,
-                className: "profile-picture",
-                initial: {
-                    scale: 0.9,
-                    opacity: 0
-                },
-                animate: {
-                    scale: 1,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 0.6,
-                    delay: 0.1
-                }
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.h1, {
-                style: {
-                    margin: 0,
-                    fontSize: "2.75rem",
-                    letterSpacing: "-0.03em",
-                    color: "var(--text-color)"
-                },
-                initial: {
-                    opacity: 0,
-                    y: 15
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: 0.5,
-                    delay: 0.15
-                },
-                children: name
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.p, {
-                style: {
-                    fontSize: "1.15rem",
-                    margin: "0.4rem 0 1.2rem",
-                    color: "var(--text-muted)",
-                    maxWidth: "560px"
-                },
-                initial: {
-                    opacity: 0,
-                    y: 10
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: 0.5,
-                    delay: 0.25
-                },
-                children: title
-            }),
-            summarySnippet && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.p, {
-                style: {
-                    margin: 0,
-                    color: "var(--text-muted)",
-                    maxWidth: "700px"
-                },
-                initial: {
-                    opacity: 0,
-                    y: 10
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: 0.55,
-                    delay: 0.35
-                },
-                children: summarySnippet
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {
-                className: "contact-links",
-                initial: {
-                    opacity: 0,
-                    scale: 0.95
-                },
-                animate: {
-                    opacity: 1,
-                    scale: 1
-                },
-                transition: {
-                    duration: 0.45,
-                    delay: 0.35
-                },
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                        className: "contact-link",
-                        href: `mailto:${contact.email}`,
-                        title: contact.email,
-                        "aria-label": `Email ${name}`,
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMail, {})
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                        className: "contact-link",
-                        href: contact.linkedin,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        title: "LinkedIn",
-                        "aria-label": "LinkedIn Profile",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiLinkedin, {})
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                        className: "contact-link",
-                        href: contact.github,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        title: "GitHub",
-                        "aria-label": "GitHub Profile",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGithub, {})
-                    }),
-                    contact.website && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                        className: "contact-link",
-                        href: contact.website,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        title: "Portfolio",
-                        "aria-label": "Portfolio Website",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGlobe, {})
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {
-                className: "hero-actions",
-                initial: {
-                    opacity: 0,
-                    y: 12
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0
-                },
-                transition: {
-                    duration: 0.45,
-                    delay: 0.4
-                },
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                        className: "primary-btn",
-                        href: "/CV-Kerim-Halilovic-2025.pdf",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiDownload, {}),
-                            "Download CV"
-                        ]
-                    }),
-                    contact.website && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                        className: "ghost-btn",
-                        href: contact.website,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGlobe, {}),
-                            "Visit Portfolio"
-                        ]
-                    })
-                ]
-            }),
-            stats.length > 0 && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "stats-grid",
-                children: stats.map((stat)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {
-                        className: "stat-card",
-                        initial: {
-                            opacity: 0,
-                            y: 12
-                        },
-                        animate: {
-                            opacity: 1,
-                            y: 0
-                        },
-                        transition: {
-                            duration: 0.4,
-                            delay: 0.45
-                        },
-                        whileHover: {
-                            scale: 1.03
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "stat-value",
-                                children: stat.value
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "stat-label",
-                                children: stat.label
-                            })
-                        ]
-                    }, stat.label)
-                )
-            })
-        ]
-    }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _context_ThemeContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../context/ThemeContext */ \"./context/ThemeContext.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Header = ({ name , title , contact , profilePicture , stats =[] , summarySnippet ,  })=>{\n    const { theme , toggleTheme  } = (0,_context_ThemeContext__WEBPACK_IMPORTED_MODULE_3__.useTheme)();\n    const isDark = theme === \"dark\";\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.header, {\n        className: \"card hero-header\",\n        initial: {\n            opacity: 0,\n            y: -30\n        },\n        animate: {\n            opacity: 1,\n            y: 0\n        },\n        transition: {\n            duration: 0.55,\n            ease: \"easeOut\"\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                style: {\n                    justifySelf: \"end\",\n                    width: \"100%\",\n                    display: \"flex\",\n                    justifyContent: \"flex-end\"\n                },\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    className: \"theme-toggle\",\n                    type: \"button\",\n                    onClick: toggleTheme,\n                    \"aria-label\": `Switch to ${isDark ? \"light\" : \"dark\"} mode`,\n                    children: [\n                        isDark ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiSun, {\n                            size: 18\n                        }, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 45,\n                            columnNumber: 21\n                        }, undefined) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMoon, {\n                            size: 18\n                        }, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 45,\n                            columnNumber: 43\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                            children: [\n                                isDark ? \"Light\" : \"Dark\",\n                                \" Mode\"\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 46,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                    lineNumber: 39,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, undefined),\n            profilePicture && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.img, {\n                src: profilePicture,\n                alt: `${name} profile`,\n                className: \"profile-picture\",\n                initial: {\n                    scale: 0.9,\n                    opacity: 0\n                },\n                animate: {\n                    scale: 1,\n                    opacity: 1\n                },\n                transition: {\n                    duration: 0.6,\n                    delay: 0.1\n                }\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 51,\n                columnNumber: 9\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.h1, {\n                style: {\n                    margin: 0,\n                    fontSize: \"2.75rem\",\n                    letterSpacing: \"-0.03em\",\n                    color: \"var(--text-color)\"\n                },\n                initial: {\n                    opacity: 0,\n                    y: 15\n                },\n                animate: {\n                    opacity: 1,\n                    y: 0\n                },\n                transition: {\n                    duration: 0.5,\n                    delay: 0.15\n                },\n                children: name\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 61,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.p, {\n                style: {\n                    fontSize: \"1.15rem\",\n                    margin: \"0.4rem 0 1.2rem\",\n                    color: \"var(--text-muted)\",\n                    maxWidth: \"560px\"\n                },\n                initial: {\n                    opacity: 0,\n                    y: 10\n                },\n                animate: {\n                    opacity: 1,\n                    y: 0\n                },\n                transition: {\n                    duration: 0.5,\n                    delay: 0.25\n                },\n                children: title\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 75,\n                columnNumber: 7\n            }, undefined),\n            summarySnippet && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.p, {\n                style: {\n                    margin: 0,\n                    color: \"var(--text-muted)\",\n                    maxWidth: \"700px\"\n                },\n                initial: {\n                    opacity: 0,\n                    y: 10\n                },\n                animate: {\n                    opacity: 1,\n                    y: 0\n                },\n                transition: {\n                    duration: 0.55,\n                    delay: 0.35\n                },\n                children: summarySnippet\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 90,\n                columnNumber: 9\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {\n                className: \"contact-links\",\n                initial: {\n                    opacity: 0,\n                    scale: 0.95\n                },\n                animate: {\n                    opacity: 1,\n                    scale: 1\n                },\n                transition: {\n                    duration: 0.45,\n                    delay: 0.35\n                },\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"contact-link\",\n                        href: `mailto:${contact.email}`,\n                        title: contact.email,\n                        \"aria-label\": `Email ${name}`,\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiMail, {}, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 116,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 110,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"contact-link\",\n                        href: contact.linkedin,\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        title: \"LinkedIn\",\n                        \"aria-label\": \"LinkedIn Profile\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiLinkedin, {}, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 126,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 118,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"contact-link\",\n                        href: contact.github,\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        title: \"GitHub\",\n                        \"aria-label\": \"GitHub Profile\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGithub, {}, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 136,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 128,\n                        columnNumber: 9\n                    }, undefined),\n                    contact.website && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"contact-link\",\n                        href: contact.website,\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        title: \"Portfolio\",\n                        \"aria-label\": \"Portfolio Website\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGlobe, {}, void 0, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                            lineNumber: 147,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 139,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 104,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {\n                className: \"hero-actions\",\n                initial: {\n                    opacity: 0,\n                    y: 12\n                },\n                animate: {\n                    opacity: 1,\n                    y: 0\n                },\n                transition: {\n                    duration: 0.45,\n                    delay: 0.4\n                },\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"primary-btn\",\n                        href: \"/CV-Kerim-Halilovic-2025.pdf\",\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiDownload, {}, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                                lineNumber: 164,\n                                columnNumber: 11\n                            }, undefined),\n                            \"Download CV\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 158,\n                        columnNumber: 9\n                    }, undefined),\n                    contact.website && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        className: \"ghost-btn\",\n                        href: contact.website,\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__.FiGlobe, {}, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                                lineNumber: 174,\n                                columnNumber: 13\n                            }, undefined),\n                            \"Visit Portfolio\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 168,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 152,\n                columnNumber: 7\n            }, undefined),\n            stats.length > 0 && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"stats-grid\",\n                children: stats.map((stat)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {\n                        className: \"stat-card\",\n                        initial: {\n                            opacity: 0,\n                            y: 12\n                        },\n                        animate: {\n                            opacity: 1,\n                            y: 0\n                        },\n                        transition: {\n                            duration: 0.4,\n                            delay: 0.45\n                        },\n                        whileHover: {\n                            scale: 1.03\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"stat-value\",\n                                children: stat.value\n                            }, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                                lineNumber: 191,\n                                columnNumber: 15\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"stat-label\",\n                                children: stat.label\n                            }, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                                lineNumber: 192,\n                                columnNumber: 15\n                            }, undefined)\n                        ]\n                    }, stat.label, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                        lineNumber: 183,\n                        columnNumber: 13\n                    }, undefined)\n                )\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n                lineNumber: 181,\n                columnNumber: 9\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Header.js\",\n        lineNumber: 25,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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LE9BQU8sRUFBRSxDQUFDOzRCQUFFQyxDQUFDLEVBQUUsQ0FBQzt3QkFBQyxDQUFDO3dCQUM3QkUsVUFBVSxFQUFFLENBQUM7NEJBQUNDLFFBQVEsRUFBRSxHQUFHOzRCQUFFa0IsS0FBSyxFQUFFLElBQUk7d0JBQUMsQ0FBQzt3QkFDMUNtQixVQUFVLEVBQUUsQ0FBQzs0QkFBQ3BCLEtBQUssRUFBRSxJQUFJO3dCQUFDLENBQUM7O3dHQUUxQkosQ0FBSTtnQ0FBQ25CLFNBQVMsRUFBQyxDQUFZOzBDQUFFMEMsSUFBSSxDQUFDRSxLQUFLOzs7Ozs7d0dBQ3ZDekIsQ0FBSTtnQ0FBQ25CLFNBQVMsRUFBQyxDQUFZOzBDQUFFMEMsSUFBSSxDQUFDRyxLQUFLOzs7Ozs7O3VCQVJuQ0gsSUFBSSxDQUFDRyxLQUFLOzs7Ozs7Ozs7Ozs7Ozs7OztBQWU3QixDQUFDO0FBRUQsaUVBQWV4RCxNQUFNLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnRlcmFjdGl2ZS1jdi8uL2NvbXBvbmVudHMvSGVhZGVyLmpzPzRkYmIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgbW90aW9uIH0gZnJvbSBcImZyYW1lci1tb3Rpb25cIjtcbmltcG9ydCB7XG4gIEZpTWFpbCxcbiAgRmlMaW5rZWRpbixcbiAgRmlHaXRodWIsXG4gIEZpR2xvYmUsXG4gIEZpRG93bmxvYWQsXG4gIEZpU3VuLFxuICBGaU1vb24sXG59IGZyb20gXCJyZWFjdC1pY29ucy9maVwiO1xuaW1wb3J0IHsgdXNlVGhlbWUgfSBmcm9tIFwiLi4vY29udGV4dC9UaGVtZUNvbnRleHRcIjtcblxuY29uc3QgSGVhZGVyID0gKHtcbiAgbmFtZSxcbiAgdGl0bGUsXG4gIGNvbnRhY3QsXG4gIHByb2ZpbGVQaWN0dXJlLFxuICBzdGF0cyA9IFtdLFxuICBzdW1tYXJ5U25pcHBldCxcbn0pID0+IHtcbiAgY29uc3QgeyB0aGVtZSwgdG9nZ2xlVGhlbWUgfSA9IHVzZVRoZW1lKCk7XG4gIGNvbnN0IGlzRGFyayA9IHRoZW1lID09PSBcImRhcmtcIjtcblxuICByZXR1cm4gKFxuICAgIDxtb3Rpb24uaGVhZGVyXG4gICAgICBjbGFzc05hbWU9XCJjYXJkIGhlcm8taGVhZGVyXCJcbiAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogLTMwIH19XG4gICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNTUsIGVhc2U6IFwiZWFzZU91dFwiIH19XG4gICAgPlxuICAgICAgPGRpdlxuICAgICAgICBzdHlsZT17e1xuICAgICAgICAgIGp1c3RpZnlTZWxmOiBcImVuZFwiLFxuICAgICAgICAgIHdpZHRoOiBcIjEwMCVcIixcbiAgICAgICAgICBkaXNwbGF5OiBcImZsZXhcIixcbiAgICAgICAgICBqdXN0aWZ5Q29udGVudDogXCJmbGV4LWVuZFwiLFxuICAgICAgICB9fVxuICAgICAgPlxuICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgY2xhc3NOYW1lPVwidGhlbWUtdG9nZ2xlXCJcbiAgICAgICAgICB0eXBlPVwiYnV0dG9uXCJcbiAgICAgICAgICBvbkNsaWNrPXt0b2dnbGVUaGVtZX1cbiAgICAgICAgICBhcmlhLWxhYmVsPXtgU3dpdGNoIHRvICR7aXNEYXJrID8gXCJsaWdodFwiIDogXCJkYXJrXCJ9IG1vZGVgfVxuICAgICAgICA+XG4gICAgICAgICAge2lzRGFyayA/IDxGaVN1biBzaXplPXsxOH0gLz4gOiA8RmlNb29uIHNpemU9ezE4fSAvPn1cbiAgICAgICAgICA8c3Bhbj57aXNEYXJrID8gXCJMaWdodFwiIDogXCJEYXJrXCJ9IE1vZGU8L3NwYW4+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIHtwcm9maWxlUGljdHVyZSAmJiAoXG4gICAgICAgIDxtb3Rpb24uaW1nXG4gICAgICAgICAgc3JjPXtwcm9maWxlUGljdHVyZX1cbiAgICAgICAgICBhbHQ9e2Ake25hbWV9IHByb2ZpbGVgfVxuICAgICAgICAgIGNsYXNzTmFtZT1cInByb2ZpbGUtcGljdHVyZVwiXG4gICAgICAgICAgaW5pdGlhbD17eyBzY2FsZTogMC45LCBvcGFjaXR5OiAwIH19XG4gICAgICAgICAgYW5pbWF0ZT17eyBzY2FsZTogMSwgb3BhY2l0eTogMSB9fVxuICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNiwgZGVsYXk6IDAuMSB9fVxuICAgICAgICAvPlxuICAgICAgKX1cblxuICAgICAgPG1vdGlvbi5oMVxuICAgICAgICBzdHlsZT17e1xuICAgICAgICAgIG1hcmdpbjogMCxcbiAgICAgICAgICBmb250U2l6ZTogXCIyLjc1cmVtXCIsXG4gICAgICAgICAgbGV0dGVyU3BhY2luZzogXCItMC4wM2VtXCIsXG4gICAgICAgICAgY29sb3I6IFwidmFyKC0tdGV4dC1jb2xvcilcIixcbiAgICAgICAgfX1cbiAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAxNSB9fVxuICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC41LCBkZWxheTogMC4xNSB9fVxuICAgICAgPlxuICAgICAgICB7bmFtZX1cbiAgICAgIDwvbW90aW9uLmgxPlxuXG4gICAgICA8bW90aW9uLnBcbiAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICBmb250U2l6ZTogXCIxLjE1cmVtXCIsXG4gICAgICAgICAgbWFyZ2luOiBcIjAuNHJlbSAwIDEuMnJlbVwiLFxuICAgICAgICAgIGNvbG9yOiBcInZhcigtLXRleHQtbXV0ZWQpXCIsXG4gICAgICAgICAgbWF4V2lkdGg6IFwiNTYwcHhcIixcbiAgICAgICAgfX1cbiAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAxMCB9fVxuICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC41LCBkZWxheTogMC4yNSB9fVxuICAgICAgPlxuICAgICAgICB7dGl0bGV9XG4gICAgICA8L21vdGlvbi5wPlxuXG4gICAgICB7c3VtbWFyeVNuaXBwZXQgJiYgKFxuICAgICAgICA8bW90aW9uLnBcbiAgICAgICAgICBzdHlsZT17e1xuICAgICAgICAgICAgbWFyZ2luOiAwLFxuICAgICAgICAgICAgY29sb3I6IFwidmFyKC0tdGV4dC1tdXRlZClcIixcbiAgICAgICAgICAgIG1heFdpZHRoOiBcIjcwMHB4XCIsXG4gICAgICAgICAgfX1cbiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDEwIH19XG4gICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19XG4gICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC41NSwgZGVsYXk6IDAuMzUgfX1cbiAgICAgICAgPlxuICAgICAgICAgIHtzdW1tYXJ5U25pcHBldH1cbiAgICAgICAgPC9tb3Rpb24ucD5cbiAgICAgICl9XG5cbiAgICAgIDxtb3Rpb24uZGl2XG4gICAgICAgIGNsYXNzTmFtZT1cImNvbnRhY3QtbGlua3NcIlxuICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHNjYWxlOiAwLjk1IH19XG4gICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgc2NhbGU6IDEgfX1cbiAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC40NSwgZGVsYXk6IDAuMzUgfX1cbiAgICAgID5cbiAgICAgICAgPGFcbiAgICAgICAgICBjbGFzc05hbWU9XCJjb250YWN0LWxpbmtcIlxuICAgICAgICAgIGhyZWY9e2BtYWlsdG86JHtjb250YWN0LmVtYWlsfWB9XG4gICAgICAgICAgdGl0bGU9e2NvbnRhY3QuZW1haWx9XG4gICAgICAgICAgYXJpYS1sYWJlbD17YEVtYWlsICR7bmFtZX1gfVxuICAgICAgICA+XG4gICAgICAgICAgPEZpTWFpbCAvPlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhXG4gICAgICAgICAgY2xhc3NOYW1lPVwiY29udGFjdC1saW5rXCJcbiAgICAgICAgICBocmVmPXtjb250YWN0LmxpbmtlZGlufVxuICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG4gICAgICAgICAgdGl0bGU9XCJMaW5rZWRJblwiXG4gICAgICAgICAgYXJpYS1sYWJlbD1cIkxpbmtlZEluIFByb2ZpbGVcIlxuICAgICAgICA+XG4gICAgICAgICAgPEZpTGlua2VkaW4gLz5cbiAgICAgICAgPC9hPlxuICAgICAgICA8YVxuICAgICAgICAgIGNsYXNzTmFtZT1cImNvbnRhY3QtbGlua1wiXG4gICAgICAgICAgaHJlZj17Y29udGFjdC5naXRodWJ9XG4gICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCJcbiAgICAgICAgICB0aXRsZT1cIkdpdEh1YlwiXG4gICAgICAgICAgYXJpYS1sYWJlbD1cIkdpdEh1YiBQcm9maWxlXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxGaUdpdGh1YiAvPlxuICAgICAgICA8L2E+XG4gICAgICAgIHtjb250YWN0LndlYnNpdGUgJiYgKFxuICAgICAgICAgIDxhXG4gICAgICAgICAgICBjbGFzc05hbWU9XCJjb250YWN0LWxpbmtcIlxuICAgICAgICAgICAgaHJlZj17Y29udGFjdC53ZWJzaXRlfVxuICAgICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICAgICAgdGl0bGU9XCJQb3J0Zm9saW9cIlxuICAgICAgICAgICAgYXJpYS1sYWJlbD1cIlBvcnRmb2xpbyBXZWJzaXRlXCJcbiAgICAgICAgICA+XG4gICAgICAgICAgICA8RmlHbG9iZSAvPlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgKX1cbiAgICAgIDwvbW90aW9uLmRpdj5cblxuICAgICAgPG1vdGlvbi5kaXZcbiAgICAgICAgY2xhc3NOYW1lPVwiaGVyby1hY3Rpb25zXCJcbiAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAxMiB9fVxuICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC40NSwgZGVsYXk6IDAuNCB9fVxuICAgICAgPlxuICAgICAgICA8YVxuICAgICAgICAgIGNsYXNzTmFtZT1cInByaW1hcnktYnRuXCJcbiAgICAgICAgICBocmVmPVwiL0NWLUtlcmltLUhhbGlsb3ZpYy0yMDI1LnBkZlwiXG4gICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxGaURvd25sb2FkIC8+XG4gICAgICAgICAgRG93bmxvYWQgQ1ZcbiAgICAgICAgPC9hPlxuICAgICAgICB7Y29udGFjdC53ZWJzaXRlICYmIChcbiAgICAgICAgICA8YVxuICAgICAgICAgICAgY2xhc3NOYW1lPVwiZ2hvc3QtYnRuXCJcbiAgICAgICAgICAgIGhyZWY9e2NvbnRhY3Qud2Vic2l0ZX1cbiAgICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCJcbiAgICAgICAgICA+XG4gICAgICAgICAgICA8RmlHbG9iZSAvPlxuICAgICAgICAgICAgVmlzaXQgUG9ydGZvbGlvXG4gICAgICAgICAgPC9hPlxuICAgICAgICApfVxuICAgICAgPC9tb3Rpb24uZGl2PlxuXG4gICAgICB7c3RhdHMubGVuZ3RoID4gMCAmJiAoXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3RhdHMtZ3JpZFwiPlxuICAgICAgICAgIHtzdGF0cy5tYXAoKHN0YXQpID0+IChcbiAgICAgICAgICAgIDxtb3Rpb24uZGl2XG4gICAgICAgICAgICAgIGtleT17c3RhdC5sYWJlbH1cbiAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3RhdC1jYXJkXCJcbiAgICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAxMiB9fVxuICAgICAgICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC40LCBkZWxheTogMC40NSB9fVxuICAgICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlOiAxLjAzIH19XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInN0YXQtdmFsdWVcIj57c3RhdC52YWx1ZX08L3NwYW4+XG4gICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInN0YXQtbGFiZWxcIj57c3RhdC5sYWJlbH08L3NwYW4+XG4gICAgICAgICAgICA8L21vdGlvbi5kaXY+XG4gICAgICAgICAgKSl9XG4gICAgICAgIDwvZGl2PlxuICAgICAgKX1cbiAgICA8L21vdGlvbi5oZWFkZXI+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBIZWFkZXI7XG4iXSwibmFtZXMiOlsibW90aW9uIiwiRmlNYWlsIiwiRmlMaW5rZWRpbiIsIkZpR2l0aHViIiwiRmlHbG9iZSIsIkZpRG93bmxvYWQiLCJGaVN1biIsIkZpTW9vbiIsInVzZVRoZW1lIiwiSGVhZGVyIiwibmFtZSIsInRpdGxlIiwiY29udGFjdCIsInByb2ZpbGVQaWN0dXJlIiwic3RhdHMiLCJzdW1tYXJ5U25pcHBldCIsInRoZW1lIiwidG9nZ2xlVGhlbWUiLCJpc0RhcmsiLCJoZWFkZXIiLCJjbGFzc05hbWUiLCJpbml0aWFsIiwib3BhY2l0eSIsInkiLCJhbmltYXRlIiwidHJhbnNpdGlvbiIsImR1cmF0aW9uIiwiZWFzZSIsImRpdiIsInN0eWxlIiwianVzdGlmeVNlbGYiLCJ3aWR0aCIsImRpc3BsYXkiLCJqdXN0aWZ5Q29udGVudCIsImJ1dHRvbiIsInR5cGUiLCJvbkNsaWNrIiwiYXJpYS1sYWJlbCIsInNpemUiLCJzcGFuIiwiaW1nIiwic3JjIiwiYWx0Iiwic2NhbGUiLCJkZWxheSIsImgxIiwibWFyZ2luIiwiZm9udFNpemUiLCJsZXR0ZXJTcGFjaW5nIiwiY29sb3IiLCJwIiwibWF4V2lkdGgiLCJhIiwiaHJlZiIsImVtYWlsIiwibGlua2VkaW4iLCJ0YXJnZXQiLCJyZWwiLCJnaXRodWIiLCJ3ZWJzaXRlIiwibGVuZ3RoIiwibWFwIiwic3RhdCIsIndoaWxlSG92ZXIiLCJ2YWx1ZSIsImxhYmVsIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Header.js\n");
 
 /***/ }),
 
-/***/ 433:
+/***/ "./components/Projects.js":
+/*!********************************!*\
+  !*** ./components/Projects.js ***!
+  \********************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-const Projects = ({ projects  })=>{
-    const { 0: selectedTech , 1: setSelectedTech  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
-    const allTechnologies = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{
-        const techSet = new Set();
-        projects.forEach((project)=>{
-            project.technologies.forEach((tech)=>techSet.add(tech)
-            );
-        });
-        return Array.from(techSet);
-    }, [
-        projects
-    ]);
-    const toggleTechnology = (tech)=>{
-        setSelectedTech((current)=>current.includes(tech) ? current.filter((item)=>item !== tech
-            ) : [
-                ...current,
-                tech
-            ]
-        );
-    };
-    const clearFilters = ()=>setSelectedTech([])
-    ;
-    const filteredProjects = selectedTech.length === 0 ? projects : projects.filter((project)=>selectedTech.every((tech)=>project.technologies.includes(tech)
-        )
-    );
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: "section",
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                children: "Projects"
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "filter-bar",
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                        style: {
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "0.35rem",
-                            fontWeight: 600,
-                            color: "var(--text-muted)",
-                            letterSpacing: "0.08em",
-                            textTransform: "uppercase",
-                            fontSize: "0.75rem"
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiFilter, {}),
-                            " Filter by Tech"
-                        ]
-                    }),
-                    allTechnologies.map((tech)=>{
-                        const isActive = selectedTech.includes(tech);
-                        return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                            type: "button",
-                            className: `filter-chip${isActive ? " active" : ""}`,
-                            onClick: ()=>toggleTechnology(tech)
-                            ,
-                            children: tech
-                        }, tech));
-                    }),
-                    selectedTech.length > 0 && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                        type: "button",
-                        className: "filter-chip active",
-                        onClick: clearFilters,
-                        style: {
-                            background: "var(--accent-gradient)",
-                            color: "white",
-                            borderColor: "transparent"
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiX, {}),
-                            "Clear"
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {
-                children: filteredProjects.length > 0 ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "project-grid",
-                    children: filteredProjects.map((project, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.article, {
-                            className: "project-card",
-                            initial: {
-                                opacity: 0,
-                                y: 20
-                            },
-                            animate: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            exit: {
-                                opacity: 0,
-                                y: -10
-                            },
-                            transition: {
-                                duration: 0.3
-                            },
-                            whileHover: {
-                                y: -6
-                            },
-                            children: [
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "project-meta",
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                            children: project.technologies.slice(0, 2).join(" • ")
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                            href: project.link,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            "aria-label": `Open ${project.name}`,
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "0.3rem"
-                                            },
-                                            children: [
-                                                "View ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiExternalLink, {})
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                    children: project.name
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    style: {
-                                        color: "var(--text-muted)"
-                                    },
-                                    children: project.description
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    style: {
-                                        marginTop: "1rem"
-                                    },
-                                    children: project.technologies.map((tech)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                            className: "tag",
-                                            children: tech
-                                        }, `${project.name}-${tech}`)
-                                    )
-                                })
-                            ]
-                        }, `${project.name}-${index}`)
-                    )
-                }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-                    className: "empty-state",
-                    initial: {
-                        opacity: 0,
-                        scale: 0.9
-                    },
-                    animate: {
-                        opacity: 1,
-                        scale: 1
-                    },
-                    exit: {
-                        opacity: 0
-                    },
-                    children: "No projects match that tech stack just yet. Try clearing the filters."
-                })
-            })
-        ]
-    }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Projects = ({ projects  })=>{\n    const { 0: selectedTech , 1: setSelectedTech  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    const allTechnologies = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{\n        const techSet = new Set();\n        projects.forEach((project)=>{\n            project.technologies.forEach((tech)=>techSet.add(tech)\n            );\n        });\n        return Array.from(techSet);\n    }, [\n        projects\n    ]);\n    const toggleTechnology = (tech)=>{\n        setSelectedTech((current)=>current.includes(tech) ? current.filter((item)=>item !== tech\n            ) : [\n                ...current,\n                tech\n            ]\n        );\n    };\n    const clearFilters = ()=>setSelectedTech([])\n    ;\n    const filteredProjects = selectedTech.length === 0 ? projects : projects.filter((project)=>selectedTech.every((tech)=>project.technologies.includes(tech)\n        )\n    );\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        className: \"section\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: \"Projects\"\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                lineNumber: 35,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"filter-bar\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        style: {\n                            display: \"inline-flex\",\n                            alignItems: \"center\",\n                            gap: \"0.35rem\",\n                            fontWeight: 600,\n                            color: \"var(--text-muted)\",\n                            letterSpacing: \"0.08em\",\n                            textTransform: \"uppercase\",\n                            fontSize: \"0.75rem\"\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiFilter, {}, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                lineNumber: 49,\n                                columnNumber: 11\n                            }, undefined),\n                            \" Filter by Tech\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, undefined),\n                    allTechnologies.map((tech)=>{\n                        const isActive = selectedTech.includes(tech);\n                        return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            type: \"button\",\n                            className: `filter-chip${isActive ? \" active\" : \"\"}`,\n                            onClick: ()=>toggleTechnology(tech)\n                            ,\n                            children: tech\n                        }, tech, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                            lineNumber: 54,\n                            columnNumber: 13\n                        }, undefined));\n                    }),\n                    selectedTech.length > 0 && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                        type: \"button\",\n                        className: \"filter-chip active\",\n                        onClick: clearFilters,\n                        style: {\n                            background: \"var(--accent-gradient)\",\n                            color: \"white\",\n                            borderColor: \"transparent\"\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiX, {}, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                lineNumber: 75,\n                                columnNumber: 13\n                            }, undefined),\n                            \"Clear\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                        lineNumber: 65,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                lineNumber: 36,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {\n                children: filteredProjects.length > 0 ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"project-grid\",\n                    children: filteredProjects.map((project, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.article, {\n                            className: \"project-card\",\n                            initial: {\n                                opacity: 0,\n                                y: 20\n                            },\n                            animate: {\n                                opacity: 1,\n                                y: 0\n                            },\n                            exit: {\n                                opacity: 0,\n                                y: -10\n                            },\n                            transition: {\n                                duration: 0.3\n                            },\n                            whileHover: {\n                                y: -6\n                            },\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"project-meta\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            children: project.technologies.slice(0, 2).join(\" • \")\n                                        }, void 0, false, {\n                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                            lineNumber: 95,\n                                            columnNumber: 19\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: project.link,\n                                            target: \"_blank\",\n                                            rel: \"noopener noreferrer\",\n                                            \"aria-label\": `Open ${project.name}`,\n                                            style: {\n                                                display: \"inline-flex\",\n                                                alignItems: \"center\",\n                                                gap: \"0.3rem\"\n                                            },\n                                            children: [\n                                                \"View \",\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_3__.FiExternalLink, {}, void 0, false, {\n                                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                                    lineNumber: 103,\n                                                    columnNumber: 26\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                            lineNumber: 96,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                    lineNumber: 94,\n                                    columnNumber: 17\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                    children: project.name\n                                }, void 0, false, {\n                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                    lineNumber: 106,\n                                    columnNumber: 17\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                    style: {\n                                        color: \"var(--text-muted)\"\n                                    },\n                                    children: project.description\n                                }, void 0, false, {\n                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                    lineNumber: 107,\n                                    columnNumber: 17\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    style: {\n                                        marginTop: \"1rem\"\n                                    },\n                                    children: project.technologies.map((tech)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            className: \"tag\",\n                                            children: tech\n                                        }, `${project.name}-${tech}`, false, {\n                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                            lineNumber: 110,\n                                            columnNumber: 21\n                                        }, undefined)\n                                    )\n                                }, void 0, false, {\n                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                                    lineNumber: 108,\n                                    columnNumber: 17\n                                }, undefined)\n                            ]\n                        }, `${project.name}-${index}`, true, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                            lineNumber: 85,\n                            columnNumber: 15\n                        }, undefined)\n                    )\n                }, void 0, false, {\n                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                    lineNumber: 83,\n                    columnNumber: 11\n                }, undefined) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                    className: \"empty-state\",\n                    initial: {\n                        opacity: 0,\n                        scale: 0.9\n                    },\n                    animate: {\n                        opacity: 1,\n                        scale: 1\n                    },\n                    exit: {\n                        opacity: 0\n                    },\n                    children: \"No projects match that tech stack just yet. Try clearing the filters.\"\n                }, void 0, false, {\n                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                    lineNumber: 119,\n                    columnNumber: 11\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n                lineNumber: 81,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Projects.js\",\n        lineNumber: 34,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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azovL2ludGVyYWN0aXZlLWN2Ly4vY29tcG9uZW50cy9Qcm9qZWN0cy5qcz9jMzEyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZU1lbW8sIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gXCJmcmFtZXItbW90aW9uXCI7XG5pbXBvcnQgeyBGaUV4dGVybmFsTGluaywgRmlGaWx0ZXIsIEZpWCB9IGZyb20gXCJyZWFjdC1pY29ucy9maVwiO1xuXG5jb25zdCBQcm9qZWN0cyA9ICh7IHByb2plY3RzIH0pID0+IHtcbiAgY29uc3QgW3NlbGVjdGVkVGVjaCwgc2V0U2VsZWN0ZWRUZWNoXSA9IHVzZVN0YXRlKFtdKTtcblxuICBjb25zdCBhbGxUZWNobm9sb2dpZXMgPSB1c2VNZW1vKCgpID0+IHtcbiAgICBjb25zdCB0ZWNoU2V0ID0gbmV3IFNldCgpO1xuICAgIHByb2plY3RzLmZvckVhY2goKHByb2plY3QpID0+IHtcbiAgICAgIHByb2plY3QudGVjaG5vbG9naWVzLmZvckVhY2goKHRlY2gpID0+IHRlY2hTZXQuYWRkKHRlY2gpKTtcbiAgICB9KTtcbiAgICByZXR1cm4gQXJyYXkuZnJvbSh0ZWNoU2V0KTtcbiAgfSwgW3Byb2plY3RzXSk7XG5cbiAgY29uc3QgdG9nZ2xlVGVjaG5vbG9neSA9ICh0ZWNoKSA9PiB7XG4gICAgc2V0U2VsZWN0ZWRUZWNoKChjdXJyZW50KSA9PlxuICAgICAgY3VycmVudC5pbmNsdWRlcyh0ZWNoKVxuICAgICAgICA/IGN1cnJlbnQuZmlsdGVyKChpdGVtKSA9PiBpdGVtICE9PSB0ZWNoKVxuICAgICAgICA6IFsuLi5jdXJyZW50LCB0ZWNoXVxuICAgICk7XG4gIH07XG5cbiAgY29uc3QgY2xlYXJGaWx0ZXJzID0gKCkgPT4gc2V0U2VsZWN0ZWRUZWNoKFtdKTtcblxuICBjb25zdCBmaWx0ZXJlZFByb2plY3RzID1cbiAgICBzZWxlY3RlZFRlY2gubGVuZ3RoID09PSAwXG4gICAgICA/IHByb2plY3RzXG4gICAgICA6IHByb2plY3RzLmZpbHRlcigocHJvamVjdCkgPT5cbiAgICAgICAgICBzZWxlY3RlZFRlY2guZXZlcnkoKHRlY2gpID0+IHByb2plY3QudGVjaG5vbG9naWVzLmluY2x1ZGVzKHRlY2gpKVxuICAgICAgICApO1xuXG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwic2VjdGlvblwiPlxuICAgICAgPGgyPlByb2plY3RzPC9oMj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmlsdGVyLWJhclwiPlxuICAgICAgICA8c3BhblxuICAgICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgICBkaXNwbGF5OiBcImlubGluZS1mbGV4XCIsXG4gICAgICAgICAgICBhbGlnbkl0ZW1zOiBcImNlbnRlclwiLFxuICAgICAgICAgICAgZ2FwOiBcIjAuMzVyZW1cIixcbiAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgICAgICAgIGNvbG9yOiBcInZhcigtLXRleHQtbXV0ZWQpXCIsXG4gICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiBcIjAuMDhlbVwiLFxuICAgICAgICAgICAgdGV4dFRyYW5zZm9ybTogXCJ1cHBlcmNhc2VcIixcbiAgICAgICAgICAgIGZvbnRTaXplOiBcIjAuNzVyZW1cIixcbiAgICAgICAgICB9fVxuICAgICAgICA+XG4gICAgICAgICAgPEZpRmlsdGVyIC8+IEZpbHRlciBieSBUZWNoXG4gICAgICAgIDwvc3Bhbj5cbiAgICAgICAge2FsbFRlY2hub2xvZ2llcy5tYXAoKHRlY2gpID0+IHtcbiAgICAgICAgICBjb25zdCBpc0FjdGl2ZSA9IHNlbGVjdGVkVGVjaC5pbmNsdWRlcyh0ZWNoKTtcbiAgICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICBrZXk9e3RlY2h9XG4gICAgICAgICAgICAgIHR5cGU9XCJidXR0b25cIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmaWx0ZXItY2hpcCR7aXNBY3RpdmUgPyBcIiBhY3RpdmVcIiA6IFwiXCJ9YH1cbiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlVGVjaG5vbG9neSh0ZWNoKX1cbiAgICAgICAgICAgID5cbiAgICAgICAgICAgICAge3RlY2h9XG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICApO1xuICAgICAgICB9KX1cbiAgICAgICAge3NlbGVjdGVkVGVjaC5sZW5ndGggPiAwICYmIChcbiAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICB0eXBlPVwiYnV0dG9uXCJcbiAgICAgICAgICAgIGNsYXNzTmFtZT1cImZpbHRlci1jaGlwIGFjdGl2ZVwiXG4gICAgICAgICAgICBvbkNsaWNrPXtjbGVhckZpbHRlcnN9XG4gICAgICAgICAgICBzdHlsZT17e1xuICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBcInZhcigtLWFjY2VudC1ncmFkaWVudClcIixcbiAgICAgICAgICAgICAgY29sb3I6IFwid2hpdGVcIixcbiAgICAgICAgICAgICAgYm9yZGVyQ29sb3I6IFwidHJhbnNwYXJlbnRcIixcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgPlxuICAgICAgICAgICAgPEZpWCAvPlxuICAgICAgICAgICAgQ2xlYXJcbiAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgKX1cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8QW5pbWF0ZVByZXNlbmNlPlxuICAgICAgICB7ZmlsdGVyZWRQcm9qZWN0cy5sZW5ndGggPiAwID8gKFxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvamVjdC1ncmlkXCI+XG4gICAgICAgICAgICB7ZmlsdGVyZWRQcm9qZWN0cy5tYXAoKHByb2plY3QsIGluZGV4KSA9PiAoXG4gICAgICAgICAgICAgIDxtb3Rpb24uYXJ0aWNsZVxuICAgICAgICAgICAgICAgIGtleT17YCR7cHJvamVjdC5uYW1lfS0ke2luZGV4fWB9XG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicHJvamVjdC1jYXJkXCJcbiAgICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDIwIH19XG4gICAgICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19XG4gICAgICAgICAgICAgICAgZXhpdD17eyBvcGFjaXR5OiAwLCB5OiAtMTAgfX1cbiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjMgfX1cbiAgICAgICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHk6IC02IH19XG4gICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2plY3QtbWV0YVwiPlxuICAgICAgICAgICAgICAgICAgPHNwYW4+e3Byb2plY3QudGVjaG5vbG9naWVzLnNsaWNlKDAsIDIpLmpvaW4oXCIg4oCiIFwiKX08L3NwYW4+XG4gICAgICAgICAgICAgICAgICA8YVxuICAgICAgICAgICAgICAgICAgICBocmVmPXtwcm9qZWN0Lmxpbmt9XG4gICAgICAgICAgICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtgT3BlbiAke3Byb2plY3QubmFtZX1gfVxuICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBkaXNwbGF5OiBcImlubGluZS1mbGV4XCIsIGFsaWduSXRlbXM6IFwiY2VudGVyXCIsIGdhcDogXCIwLjNyZW1cIiB9fVxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICBWaWV3IDxGaUV4dGVybmFsTGluayAvPlxuICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDxoMz57cHJvamVjdC5uYW1lfTwvaDM+XG4gICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgY29sb3I6IFwidmFyKC0tdGV4dC1tdXRlZClcIiB9fT57cHJvamVjdC5kZXNjcmlwdGlvbn08L3A+XG4gICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Ub3A6IFwiMXJlbVwiIH19PlxuICAgICAgICAgICAgICAgICAge3Byb2plY3QudGVjaG5vbG9naWVzLm1hcCgodGVjaCkgPT4gKFxuICAgICAgICAgICAgICAgICAgICA8c3BhbiBrZXk9e2Ake3Byb2plY3QubmFtZX0tJHt0ZWNofWB9IGNsYXNzTmFtZT1cInRhZ1wiPlxuICAgICAgICAgICAgICAgICAgICAgIHt0ZWNofVxuICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9tb3Rpb24uYXJ0aWNsZT5cbiAgICAgICAgICAgICkpfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApIDogKFxuICAgICAgICAgIDxtb3Rpb24uZGl2XG4gICAgICAgICAgICBjbGFzc05hbWU9XCJlbXB0eS1zdGF0ZVwiXG4gICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHNjYWxlOiAwLjkgfX1cbiAgICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgc2NhbGU6IDEgfX1cbiAgICAgICAgICAgIGV4aXQ9e3sgb3BhY2l0eTogMCB9fVxuICAgICAgICAgID5cbiAgICAgICAgICAgIE5vIHByb2plY3RzIG1hdGNoIHRoYXQgdGVjaCBzdGFjayBqdXN0IHlldC4gVHJ5IGNsZWFyaW5nIHRoZSBmaWx0ZXJzLlxuICAgICAgICAgIDwvbW90aW9uLmRpdj5cbiAgICAgICAgKX1cbiAgICAgIDwvQW5pbWF0ZVByZXNlbmNlPlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RzO1xuIl0sIm5hbWVzIjpbInVzZU1lbW8iLCJ1c2VTdGF0ZSIsIm1vdGlvbiIsIkFuaW1hdGVQcmVzZW5jZSIsIkZpRXh0ZXJuYWxMaW5rIiwiRmlGaWx0ZXIiLCJGaVgiLCJQcm9qZWN0cyIsInByb2plY3RzIiwic2VsZWN0ZWRUZWNoIiwic2V0U2VsZWN0ZWRUZWNoIiwiYWxsVGVjaG5vbG9naWVzIiwidGVjaFNldCIsIlNldCIsImZvckVhY2giLCJwcm9qZWN0IiwidGVjaG5vbG9naWVzIiwidGVjaCIsImFkZCIsIkFycmF5IiwiZnJvbSIsInRvZ2dsZVRlY2hub2xvZ3kiLCJjdXJyZW50IiwiaW5jbHVkZXMiLCJmaWx0ZXIiLCJpdGVtIiwiY2xlYXJGaWx0ZXJzIiwiZmlsdGVyZWRQcm9qZWN0cyIsImxlbmd0aCIsImV2ZXJ5Iiwic2VjdGlvbiIsImNsYXNzTmFtZSIsImgyIiwiZGl2Iiwic3BhbiIsInN0eWxlIiwiZGlzcGxheSIsImFsaWduSXRlbXMiLCJnYXAiLCJmb250V2VpZ2h0IiwiY29sb3IiLCJsZXR0ZXJTcGFjaW5nIiwidGV4dFRyYW5zZm9ybSIsImZvbnRTaXplIiwibWFwIiwiaXNBY3RpdmUiLCJidXR0b24iLCJ0eXBlIiwib25DbGljayIsImJhY2tncm91bmQiLCJib3JkZXJDb2xvciIsImluZGV4IiwiYXJ0aWNsZSIsImluaXRpYWwiLCJvcGFjaXR5IiwieSIsImFuaW1hdGUiLCJleGl0IiwidHJhbnNpdGlvbiIsImR1cmF0aW9uIiwid2hpbGVIb3ZlciIsInNsaWNlIiwiam9pbiIsImEiLCJocmVmIiwibGluayIsInRhcmdldCIsInJlbCIsImFyaWEtbGFiZWwiLCJuYW1lIiwiaDMiLCJwIiwiZGVzY3JpcHRpb24iLCJtYXJnaW5Ub3AiLCJzY2FsZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Projects.js\n");
 
 /***/ }),
 
-/***/ 257:
+/***/ "./components/Skills.js":
+/*!******************************!*\
+  !*** ./components/Skills.js ***!
+  \******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(290);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-const SKILL_DETAILS = {
-    "JavaScript (ES6+)": {
-        category: "Frontend",
-        level: 92
-    },
-    TypeScript: {
-        category: "Frontend",
-        level: 88
-    },
-    React: {
-        category: "Frontend",
-        level: 90
-    },
-    "Next.js": {
-        category: "Frontend",
-        level: 87
-    },
-    "Node.js": {
-        category: "Backend",
-        level: 84
-    },
-    HTML5: {
-        category: "Frontend",
-        level: 93
-    },
-    "CSS3 / SASS": {
-        category: "Frontend",
-        level: 85
-    },
-    GraphQL: {
-        category: "Backend",
-        level: 78
-    },
-    "REST APIs": {
-        category: "Backend",
-        level: 83
-    },
-    Git: {
-        category: "Tooling",
-        level: 90
-    },
-    Docker: {
-        category: "Tooling",
-        level: 80
-    },
-    "CI/CD": {
-        category: "Tooling",
-        level: 82
-    }
-};
-const Skills = ({ skills  })=>{
-    const { 0: activeCategory , 1: setActiveCategory  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("All");
-    const groupedSkills = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{
-        return skills.reduce((acc, skill)=>{
-            const detail = SKILL_DETAILS[skill] || {
-                category: "Other",
-                level: 70
-            };
-            if (!acc[detail.category]) {
-                acc[detail.category] = [];
-            }
-            acc[detail.category].push({
-                name: skill,
-                level: detail.level
-            });
-            return acc;
-        }, {});
-    }, [
-        skills
-    ]);
-    const categories = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>[
-            "All",
-            ...Object.keys(groupedSkills)
-        ]
-    , [
-        groupedSkills
-    ]);
-    const visibleGroups = activeCategory === "All" ? Object.entries(groupedSkills) : [
-        [
-            activeCategory,
-            groupedSkills[activeCategory] || []
-        ]
-    ];
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: "section card",
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaCogs, {}),
-                    " Skills Matrix"
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "skills-layout",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "skills-tabs",
-                        children: categories.map((category)=>{
-                            const isActive = activeCategory === category;
-                            return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                type: "button",
-                                className: `skills-tab${isActive ? " active" : ""}`,
-                                onClick: ()=>setActiveCategory(category)
-                                ,
-                                children: category
-                            }, category));
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {
-                        initial: false,
-                        mode: "wait",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-                            initial: {
-                                opacity: 0,
-                                y: 12
-                            },
-                            animate: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            exit: {
-                                opacity: 0,
-                                y: -12
-                            },
-                            transition: {
-                                duration: 0.35
-                            },
-                            className: "skill-group",
-                            children: visibleGroups.map(([category, skillSet])=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-                                    className: "skill-cluster",
-                                    initial: {
-                                        opacity: 0,
-                                        y: 12
-                                    },
-                                    animate: {
-                                        opacity: 1,
-                                        y: 0
-                                    },
-                                    transition: {
-                                        duration: 0.3
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            style: {
-                                                display: "flex",
-                                                alignItems: "center",
-                                                gap: "0.5rem",
-                                                fontWeight: 600,
-                                                marginBottom: "1rem",
-                                                color: "var(--primary-color)",
-                                                letterSpacing: "0.05em",
-                                                textTransform: "uppercase",
-                                                fontSize: "0.75rem"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__.FiLayers, {}),
-                                                category
-                                            ]
-                                        }),
-                                        skillSet.map((skill)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                style: {
-                                                    marginBottom: "1rem"
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "skill-bar",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-                                                            className: "skill-bar-fill",
-                                                            style: {
-                                                                width: `${skill.level}%`
-                                                            },
-                                                            initial: {
-                                                                width: 0
-                                                            },
-                                                            animate: {
-                                                                width: `${skill.level}%`
-                                                            },
-                                                            transition: {
-                                                                duration: 0.6,
-                                                                ease: "easeOut"
-                                                            }
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                        className: "skill-bar-label",
-                                                        children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                children: skill.name
-                                                            }),
-                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                                children: [
-                                                                    skill.level,
-                                                                    "%"
-                                                                ]
-                                                            })
-                                                        ]
-                                                    })
-                                                ]
-                                            }, skill.name)
-                                        )
-                                    ]
-                                }, category)
-                            )
-                        }, activeCategory)
-                    })
-                ]
-            })
-        ]
-    }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skills);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\nconst SKILL_DETAILS = {\n    \"JavaScript (ES6+)\": {\n        category: \"Frontend\",\n        level: 92\n    },\n    TypeScript: {\n        category: \"Frontend\",\n        level: 88\n    },\n    React: {\n        category: \"Frontend\",\n        level: 90\n    },\n    \"Next.js\": {\n        category: \"Frontend\",\n        level: 87\n    },\n    \"Node.js\": {\n        category: \"Backend\",\n        level: 84\n    },\n    HTML5: {\n        category: \"Frontend\",\n        level: 93\n    },\n    \"CSS3 / SASS\": {\n        category: \"Frontend\",\n        level: 85\n    },\n    GraphQL: {\n        category: \"Backend\",\n        level: 78\n    },\n    \"REST APIs\": {\n        category: \"Backend\",\n        level: 83\n    },\n    Git: {\n        category: \"Tooling\",\n        level: 90\n    },\n    Docker: {\n        category: \"Tooling\",\n        level: 80\n    },\n    \"CI/CD\": {\n        category: \"Tooling\",\n        level: 82\n    }\n};\nconst Skills = ({ skills  })=>{\n    const { 0: activeCategory , 1: setActiveCategory  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"All\");\n    const groupedSkills = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{\n        return skills.reduce((acc, skill)=>{\n            const detail = SKILL_DETAILS[skill] || {\n                category: \"Other\",\n                level: 70\n            };\n            if (!acc[detail.category]) {\n                acc[detail.category] = [];\n            }\n            acc[detail.category].push({\n                name: skill,\n                level: detail.level\n            });\n            return acc;\n        }, {});\n    }, [\n        skills\n    ]);\n    const categories = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>[\n            \"All\",\n            ...Object.keys(groupedSkills)\n        ]\n    , [\n        groupedSkills\n    ]);\n    const visibleGroups = activeCategory === \"All\" ? Object.entries(groupedSkills) : [\n        [\n            activeCategory,\n            groupedSkills[activeCategory] || []\n        ]\n    ];\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        className: \"section card\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaCogs, {}, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                        lineNumber: 56,\n                        columnNumber: 9\n                    }, undefined),\n                    \" Skills Matrix\"\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                lineNumber: 55,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"skills-layout\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"skills-tabs\",\n                        children: categories.map((category)=>{\n                            const isActive = activeCategory === category;\n                            return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                className: `skills-tab${isActive ? \" active\" : \"\"}`,\n                                onClick: ()=>setActiveCategory(category)\n                                ,\n                                children: category\n                            }, category, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                lineNumber: 63,\n                                columnNumber: 15\n                            }, undefined));\n                        })\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                        lineNumber: 59,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {\n                        initial: false,\n                        mode: \"wait\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                            initial: {\n                                opacity: 0,\n                                y: 12\n                            },\n                            animate: {\n                                opacity: 1,\n                                y: 0\n                            },\n                            exit: {\n                                opacity: 0,\n                                y: -12\n                            },\n                            transition: {\n                                duration: 0.35\n                            },\n                            className: \"skill-group\",\n                            children: visibleGroups.map(([category, skillSet])=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                                    className: \"skill-cluster\",\n                                    initial: {\n                                        opacity: 0,\n                                        y: 12\n                                    },\n                                    animate: {\n                                        opacity: 1,\n                                        y: 0\n                                    },\n                                    transition: {\n                                        duration: 0.3\n                                    },\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            style: {\n                                                display: \"flex\",\n                                                alignItems: \"center\",\n                                                gap: \"0.5rem\",\n                                                fontWeight: 600,\n                                                marginBottom: \"1rem\",\n                                                color: \"var(--primary-color)\",\n                                                letterSpacing: \"0.05em\",\n                                                textTransform: \"uppercase\",\n                                                fontSize: \"0.75rem\"\n                                            },\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__.FiLayers, {}, void 0, false, {\n                                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                    lineNumber: 105,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                category\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                            lineNumber: 92,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        skillSet.map((skill)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                style: {\n                                                    marginBottom: \"1rem\"\n                                                },\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                        className: \"skill-bar\",\n                                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                                                            className: \"skill-bar-fill\",\n                                                            style: {\n                                                                width: `${skill.level}%`\n                                                            },\n                                                            initial: {\n                                                                width: 0\n                                                            },\n                                                            animate: {\n                                                                width: `${skill.level}%`\n                                                            },\n                                                            transition: {\n                                                                duration: 0.6,\n                                                                ease: \"easeOut\"\n                                                            }\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                            lineNumber: 112,\n                                                            columnNumber: 23\n                                                        }, undefined)\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                        lineNumber: 111,\n                                                        columnNumber: 21\n                                                    }, undefined),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                        className: \"skill-bar-label\",\n                                                        children: [\n                                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                                children: skill.name\n                                                            }, void 0, false, {\n                                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                                lineNumber: 121,\n                                                                columnNumber: 23\n                                                            }, undefined),\n                                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                                children: [\n                                                                    skill.level,\n                                                                    \"%\"\n                                                                ]\n                                                            }, void 0, true, {\n                                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                                lineNumber: 122,\n                                                                columnNumber: 23\n                                                            }, undefined)\n                                                        ]\n                                                    }, void 0, true, {\n                                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                        lineNumber: 120,\n                                                        columnNumber: 21\n                                                    }, undefined)\n                                                ]\n                                            }, skill.name, true, {\n                                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                                lineNumber: 110,\n                                                columnNumber: 19\n                                            }, undefined)\n                                        )\n                                    ]\n                                }, category, true, {\n                                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                                    lineNumber: 85,\n                                    columnNumber: 15\n                                }, undefined)\n                            )\n                        }, activeCategory, false, {\n                            fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                            lineNumber: 76,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                        lineNumber: 75,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n                lineNumber: 58,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Skills.js\",\n        lineNumber: 54,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skills);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QmlCLEtBQUssRUFBRSxDQUFDO2dFQUFDVSxLQUFLLEtBQUtyQyxLQUFLLENBQUNkLEtBQUssQ0FBQyxDQUFDOzREQUFFLENBQUM7NERBQ25DZ0MsT0FBTyxFQUFFLENBQUM7Z0VBQUNtQixLQUFLLEVBQUUsQ0FBQzs0REFBQyxDQUFDOzREQUNyQmYsT0FBTyxFQUFFLENBQUM7Z0VBQUNlLEtBQUssS0FBS3JDLEtBQUssQ0FBQ2QsS0FBSyxDQUFDLENBQUM7NERBQUUsQ0FBQzs0REFDckNzQyxVQUFVLEVBQUUsQ0FBQztnRUFBQ0MsUUFBUSxFQUFFLEdBQUc7Z0VBQUVhLElBQUksRUFBRSxDQUFTOzREQUFDLENBQUM7Ozs7Ozs7Ozs7O2dJQUdqRDFCLENBQUc7d0RBQUNGLFNBQVMsRUFBQyxDQUFpQjs7d0lBQzdCNkIsQ0FBSTswRUFBRXZDLEtBQUssQ0FBQ0csSUFBSTs7Ozs7O3dJQUNoQm9DLENBQUk7O29FQUFFdkMsS0FBSyxDQUFDZCxLQUFLO29FQUFDLENBQUM7Ozs7Ozs7Ozs7Ozs7OytDQVpkYyxLQUFLLENBQUNHLElBQUk7Ozs7Ozs7bUNBeEJqQmxCLFFBQVE7Ozs7OzsyQkFUWlUsY0FBYzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXdEL0IsQ0FBQztBQUVELGlFQUFlRixNQUFNLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnRlcmFjdGl2ZS1jdi8uL2NvbXBvbmVudHMvU2tpbGxzLmpzP2ExOTgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IG1vdGlvbiwgQW5pbWF0ZVByZXNlbmNlIH0gZnJvbSBcImZyYW1lci1tb3Rpb25cIjtcbmltcG9ydCB7IEZhQ29ncyB9IGZyb20gXCJyZWFjdC1pY29ucy9mYVwiO1xuaW1wb3J0IHsgRmlMYXllcnMgfSBmcm9tIFwicmVhY3QtaWNvbnMvZmlcIjtcblxuY29uc3QgU0tJTExfREVUQUlMUyA9IHtcbiAgXCJKYXZhU2NyaXB0IChFUzYrKVwiOiB7IGNhdGVnb3J5OiBcIkZyb250ZW5kXCIsIGxldmVsOiA5MiB9LFxuICBUeXBlU2NyaXB0OiB7IGNhdGVnb3J5OiBcIkZyb250ZW5kXCIsIGxldmVsOiA4OCB9LFxuICBSZWFjdDogeyBjYXRlZ29yeTogXCJGcm9udGVuZFwiLCBsZXZlbDogOTAgfSxcbiAgXCJOZXh0LmpzXCI6IHsgY2F0ZWdvcnk6IFwiRnJvbnRlbmRcIiwgbGV2ZWw6IDg3IH0sXG4gIFwiTm9kZS5qc1wiOiB7IGNhdGVnb3J5OiBcIkJhY2tlbmRcIiwgbGV2ZWw6IDg0IH0sXG4gIEhUTUw1OiB7IGNhdGVnb3J5OiBcIkZyb250ZW5kXCIsIGxldmVsOiA5MyB9LFxuICBcIkNTUzMgLyBTQVNTXCI6IHsgY2F0ZWdvcnk6IFwiRnJvbnRlbmRcIiwgbGV2ZWw6IDg1IH0sXG4gIEdyYXBoUUw6IHsgY2F0ZWdvcnk6IFwiQmFja2VuZFwiLCBsZXZlbDogNzggfSxcbiAgXCJSRVNUIEFQSXNcIjogeyBjYXRlZ29yeTogXCJCYWNrZW5kXCIsIGxldmVsOiA4MyB9LFxuICBHaXQ6IHsgY2F0ZWdvcnk6IFwiVG9vbGluZ1wiLCBsZXZlbDogOTAgfSxcbiAgRG9ja2VyOiB7IGNhdGVnb3J5OiBcIlRvb2xpbmdcIiwgbGV2ZWw6IDgwIH0sXG4gIFwiQ0kvQ0RcIjogeyBjYXRlZ29yeTogXCJUb29saW5nXCIsIGxldmVsOiA4MiB9LFxufTtcblxuY29uc3QgU2tpbGxzID0gKHsgc2tpbGxzIH0pID0+IHtcbiAgY29uc3QgW2FjdGl2ZUNhdGVnb3J5LCBzZXRBY3RpdmVDYXRlZ29yeV0gPSB1c2VTdGF0ZShcIkFsbFwiKTtcblxuICBjb25zdCBncm91cGVkU2tpbGxzID0gdXNlTWVtbygoKSA9PiB7XG4gICAgcmV0dXJuIHNraWxscy5yZWR1Y2UoKGFjYywgc2tpbGwpID0+IHtcbiAgICAgIGNvbnN0IGRldGFpbCA9IFNLSUxMX0RFVEFJTFNbc2tpbGxdIHx8IHtcbiAgICAgICAgY2F0ZWdvcnk6IFwiT3RoZXJcIixcbiAgICAgICAgbGV2ZWw6IDcwLFxuICAgICAgfTtcblxuICAgICAgaWYgKCFhY2NbZGV0YWlsLmNhdGVnb3J5XSkge1xuICAgICAgICBhY2NbZGV0YWlsLmNhdGVnb3J5XSA9IFtdO1xuICAgICAgfVxuXG4gICAgICBhY2NbZGV0YWlsLmNhdGVnb3J5XS5wdXNoKHtcbiAgICAgICAgbmFtZTogc2tpbGwsXG4gICAgICAgIGxldmVsOiBkZXRhaWwubGV2ZWwsXG4gICAgICB9KTtcbiAgICAgIHJldHVybiBhY2M7XG4gICAgfSwge30pO1xuICB9LCBbc2tpbGxzXSk7XG5cbiAgY29uc3QgY2F0ZWdvcmllcyA9IHVzZU1lbW8oXG4gICAgKCkgPT4gW1wiQWxsXCIsIC4uLk9iamVjdC5rZXlzKGdyb3VwZWRTa2lsbHMpXSxcbiAgICBbZ3JvdXBlZFNraWxsc11cbiAgKTtcblxuICBjb25zdCB2aXNpYmxlR3JvdXBzID1cbiAgICBhY3RpdmVDYXRlZ29yeSA9PT0gXCJBbGxcIlxuICAgICAgPyBPYmplY3QuZW50cmllcyhncm91cGVkU2tpbGxzKVxuICAgICAgOiBbW2FjdGl2ZUNhdGVnb3J5LCBncm91cGVkU2tpbGxzW2FjdGl2ZUNhdGVnb3J5XSB8fCBbXV1dO1xuXG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwic2VjdGlvbiBjYXJkXCI+XG4gICAgICA8aDI+XG4gICAgICAgIDxGYUNvZ3MgLz4gU2tpbGxzIE1hdHJpeFxuICAgICAgPC9oMj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2tpbGxzLWxheW91dFwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNraWxscy10YWJzXCI+XG4gICAgICAgICAge2NhdGVnb3JpZXMubWFwKChjYXRlZ29yeSkgPT4ge1xuICAgICAgICAgICAgY29uc3QgaXNBY3RpdmUgPSBhY3RpdmVDYXRlZ29yeSA9PT0gY2F0ZWdvcnk7XG4gICAgICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAga2V5PXtjYXRlZ29yeX1cbiAgICAgICAgICAgICAgICB0eXBlPVwiYnV0dG9uXCJcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Bza2lsbHMtdGFiJHtpc0FjdGl2ZSA/IFwiIGFjdGl2ZVwiIDogXCJcIn1gfVxuICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEFjdGl2ZUNhdGVnb3J5KGNhdGVnb3J5KX1cbiAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgIHtjYXRlZ29yeX1cbiAgICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICApO1xuICAgICAgICAgIH0pfVxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8QW5pbWF0ZVByZXNlbmNlIGluaXRpYWw9e2ZhbHNlfSBtb2RlPVwid2FpdFwiPlxuICAgICAgICAgIDxtb3Rpb24uZGl2XG4gICAgICAgICAgICBrZXk9e2FjdGl2ZUNhdGVnb3J5fVxuICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAxMiB9fVxuICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19XG4gICAgICAgICAgICBleGl0PXt7IG9wYWNpdHk6IDAsIHk6IC0xMiB9fVxuICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC4zNSB9fVxuICAgICAgICAgICAgY2xhc3NOYW1lPVwic2tpbGwtZ3JvdXBcIlxuICAgICAgICAgID5cbiAgICAgICAgICAgIHt2aXNpYmxlR3JvdXBzLm1hcCgoW2NhdGVnb3J5LCBza2lsbFNldF0pID0+IChcbiAgICAgICAgICAgICAgPG1vdGlvbi5kaXZcbiAgICAgICAgICAgICAgICBrZXk9e2NhdGVnb3J5fVxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInNraWxsLWNsdXN0ZXJcIlxuICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMTIgfX1cbiAgICAgICAgICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjMgfX1cbiAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgIDxkaXZcbiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IFwiZmxleFwiLFxuICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiBcImNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICBnYXA6IFwiMC41cmVtXCIsXG4gICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luQm90dG9tOiBcIjFyZW1cIixcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6IFwidmFyKC0tcHJpbWFyeS1jb2xvcilcIixcbiAgICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogXCIwLjA1ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgdGV4dFRyYW5zZm9ybTogXCJ1cHBlcmNhc2VcIixcbiAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IFwiMC43NXJlbVwiLFxuICAgICAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8RmlMYXllcnMgLz5cbiAgICAgICAgICAgICAgICAgIHtjYXRlZ29yeX1cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIHtza2lsbFNldC5tYXAoKHNraWxsKSA9PiAoXG4gICAgICAgICAgICAgICAgICA8ZGl2IGtleT17c2tpbGwubmFtZX0gc3R5bGU9e3sgbWFyZ2luQm90dG9tOiBcIjFyZW1cIiB9fT5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJza2lsbC1iYXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICA8bW90aW9uLmRpdlxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic2tpbGwtYmFyLWZpbGxcIlxuICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IGAke3NraWxsLmxldmVsfSVgIH19XG4gICAgICAgICAgICAgICAgICAgICAgICBpbml0aWFsPXt7IHdpZHRoOiAwIH19XG4gICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRlPXt7IHdpZHRoOiBgJHtza2lsbC5sZXZlbH0lYCB9fVxuICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC42LCBlYXNlOiBcImVhc2VPdXRcIiB9fVxuICAgICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNraWxsLWJhci1sYWJlbFwiPlxuICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPntza2lsbC5uYW1lfTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj57c2tpbGwubGV2ZWx9JTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgICAgPC9tb3Rpb24uZGl2PlxuICAgICAgICAgICAgKSl9XG4gICAgICAgICAgPC9tb3Rpb24uZGl2PlxuICAgICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFNraWxscztcbiJdLCJuYW1lcyI6WyJ1c2VNZW1vIiwidXNlU3RhdGUiLCJtb3Rpb24iLCJBbmltYXRlUHJlc2VuY2UiLCJGYUNvZ3MiLCJGaUxheWVycyIsIlNLSUxMX0RFVEFJTFMiLCJjYXRlZ29yeSIsImxldmVsIiwiVHlwZVNjcmlwdCIsIlJlYWN0IiwiSFRNTDUiLCJHcmFwaFFMIiwiR2l0IiwiRG9ja2VyIiwiU2tpbGxzIiwic2tpbGxzIiwiYWN0aXZlQ2F0ZWdvcnkiLCJzZXRBY3RpdmVDYXRlZ29yeSIsImdyb3VwZWRTa2lsbHMiLCJyZWR1Y2UiLCJhY2MiLCJza2lsbCIsImRldGFpbCIsInB1c2giLCJuYW1lIiwiY2F0ZWdvcmllcyIsIk9iamVjdCIsImtleXMiLCJ2aXNpYmxlR3JvdXBzIiwiZW50cmllcyIsInNlY3Rpb24iLCJjbGFzc05hbWUiLCJoMiIsImRpdiIsIm1hcCIsImlzQWN0aXZlIiwiYnV0dG9uIiwidHlwZSIsIm9uQ2xpY2siLCJpbml0aWFsIiwibW9kZSIsIm9wYWNpdHkiLCJ5IiwiYW5pbWF0ZSIsImV4aXQiLCJ0cmFuc2l0aW9uIiwiZHVyYXRpb24iLCJza2lsbFNldCIsInN0eWxlIiwiZGlzcGxheSIsImFsaWduSXRlbXMiLCJnYXAiLCJmb250V2VpZ2h0IiwibWFyZ2luQm90dG9tIiwiY29sb3IiLCJsZXR0ZXJTcGFjaW5nIiwidGV4dFRyYW5zZm9ybSIsImZvbnRTaXplIiwid2lkdGgiLCJlYXNlIiwic3BhbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Skills.js\n");
 
 /***/ }),
 
-/***/ 923:
+/***/ "./components/Summary.js":
+/*!*******************************!*\
+  !*** ./components/Summary.js ***!
+  \*******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(290);
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(750);
-/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-const FOCUS_KEYWORDS = [
-    {
-        label: "AI-Powered Products",
-        terms: [
-            "ai-powered",
-            "machine learning"
-        ]
-    },
-    {
-        label: "Fullstack Engineering",
-        terms: [
-            "full-stack",
-            "fullstack",
-            "next.js"
-        ]
-    },
-    {
-        label: "Product Leadership",
-        terms: [
-            "founded",
-            "developed",
-            "built"
-        ]
-    },
-    {
-        label: "Data-Driven Decisions",
-        terms: [
-            "data-driven",
-            "predict"
-        ]
-    },
-    {
-        label: "Scalable Systems",
-        terms: [
-            "scalable",
-            "deployed",
-            "production"
-        ]
-    }, 
-];
-const Summary = ({ summary  })=>{
-    const { 0: expanded , 1: setExpanded  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
-    const snippet = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{
-        const maxLength = 260;
-        if (summary.length <= maxLength) {
-            return summary;
-        }
-        const trimmed = summary.slice(0, maxLength);
-        const lastSpace = trimmed.lastIndexOf(" ");
-        return `${trimmed.slice(0, lastSpace)}…`;
-    }, [
-        summary
-    ]);
-    const focusAreas = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{
-        const lowerSummary = summary.toLowerCase();
-        const matched = FOCUS_KEYWORDS.filter((keyword)=>keyword.terms.some((term)=>lowerSummary.includes(term)
-            )
-        ).map((keyword)=>keyword.label
-        );
-        if (matched.length > 0) {
-            return matched;
-        }
-        return [
-            "Impactful Web Experiences",
-            "User-Centric Development",
-            "Continuous Learning"
-        ];
-    }, [
-        summary
-    ]);
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.section, {
-        className: "section card",
-        initial: {
-            opacity: 0,
-            y: 24
-        },
-        whileInView: {
-            opacity: 1,
-            y: 0
-        },
-        viewport: {
-            once: true
-        },
-        transition: {
-            duration: 0.45
-        },
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaUser, {}),
-                    " Summary"
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {
-                initial: false,
-                mode: "wait",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.p, {
-                    initial: {
-                        opacity: 0,
-                        y: 8
-                    },
-                    animate: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    exit: {
-                        opacity: 0,
-                        y: -8
-                    },
-                    transition: {
-                        duration: 0.25
-                    },
-                    style: {
-                        color: "var(--text-muted)"
-                    },
-                    children: expanded ? summary : snippet
-                }, expanded ? "expanded" : "collapsed")
-            }),
-            summary.length > snippet.length && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {
-                type: "button",
-                className: "timeline-toggle",
-                onClick: ()=>setExpanded((current)=>!current
-                    )
-                ,
-                whileTap: {
-                    scale: 0.96
-                },
-                style: {
-                    marginTop: "0.75rem"
-                },
-                children: expanded ? "Show Less" : "Read Full Story"
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                style: {
-                    marginTop: "1.4rem"
-                },
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        style: {
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "0.5rem",
-                            color: "var(--text-muted)",
-                            textTransform: "uppercase",
-                            letterSpacing: "0.08em",
-                            fontSize: "0.75rem",
-                            marginBottom: "0.6rem"
-                        },
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__.FiZap, {}),
-                            " Focus Areas"
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        style: {
-                            display: "flex",
-                            flexWrap: "wrap",
-                            gap: "0.5rem"
-                        },
-                        children: focusAreas.map((area)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.span, {
-                                className: "tag",
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                transition: {
-                                    duration: 0.2
-                                },
-                                children: area
-                            }, area)
-                        )
-                    })
-                ]
-            })
-        ]
-    }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Summary);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/fi */ \"react-icons/fi\");\n/* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\nconst FOCUS_KEYWORDS = [\n    {\n        label: \"AI-Powered Products\",\n        terms: [\n            \"ai-powered\",\n            \"machine learning\"\n        ]\n    },\n    {\n        label: \"Fullstack Engineering\",\n        terms: [\n            \"full-stack\",\n            \"fullstack\",\n            \"next.js\"\n        ]\n    },\n    {\n        label: \"Product Leadership\",\n        terms: [\n            \"founded\",\n            \"developed\",\n            \"built\"\n        ]\n    },\n    {\n        label: \"Data-Driven Decisions\",\n        terms: [\n            \"data-driven\",\n            \"predict\"\n        ]\n    },\n    {\n        label: \"Scalable Systems\",\n        terms: [\n            \"scalable\",\n            \"deployed\",\n            \"production\"\n        ]\n    }, \n];\nconst Summary = ({ summary  })=>{\n    const { 0: expanded , 1: setExpanded  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const snippet = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{\n        const maxLength = 260;\n        if (summary.length <= maxLength) {\n            return summary;\n        }\n        const trimmed = summary.slice(0, maxLength);\n        const lastSpace = trimmed.lastIndexOf(\" \");\n        return `${trimmed.slice(0, lastSpace)}…`;\n    }, [\n        summary\n    ]);\n    const focusAreas = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>{\n        const lowerSummary = summary.toLowerCase();\n        const matched = FOCUS_KEYWORDS.filter((keyword)=>keyword.terms.some((term)=>lowerSummary.includes(term)\n            )\n        ).map((keyword)=>keyword.label\n        );\n        if (matched.length > 0) {\n            return matched;\n        }\n        return [\n            \"Impactful Web Experiences\",\n            \"User-Centric Development\",\n            \"Continuous Learning\"\n        ];\n    }, [\n        summary\n    ]);\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.section, {\n        className: \"section card\",\n        initial: {\n            opacity: 0,\n            y: 24\n        },\n        whileInView: {\n            opacity: 1,\n            y: 0\n        },\n        viewport: {\n            once: true\n        },\n        transition: {\n            duration: 0.45\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaUser, {}, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                        lineNumber: 50,\n                        columnNumber: 9\n                    }, undefined),\n                    \" Summary\"\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                lineNumber: 49,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.AnimatePresence, {\n                initial: false,\n                mode: \"wait\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.p, {\n                    initial: {\n                        opacity: 0,\n                        y: 8\n                    },\n                    animate: {\n                        opacity: 1,\n                        y: 0\n                    },\n                    exit: {\n                        opacity: 0,\n                        y: -8\n                    },\n                    transition: {\n                        duration: 0.25\n                    },\n                    style: {\n                        color: \"var(--text-muted)\"\n                    },\n                    children: expanded ? summary : snippet\n                }, expanded ? \"expanded\" : \"collapsed\", false, {\n                    fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                    lineNumber: 53,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                lineNumber: 52,\n                columnNumber: 7\n            }, undefined),\n            summary.length > snippet.length && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {\n                type: \"button\",\n                className: \"timeline-toggle\",\n                onClick: ()=>setExpanded((current)=>!current\n                    )\n                ,\n                whileTap: {\n                    scale: 0.96\n                },\n                style: {\n                    marginTop: \"0.75rem\"\n                },\n                children: expanded ? \"Show Less\" : \"Read Full Story\"\n            }, void 0, false, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                lineNumber: 65,\n                columnNumber: 9\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                style: {\n                    marginTop: \"1.4rem\"\n                },\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        style: {\n                            display: \"inline-flex\",\n                            alignItems: \"center\",\n                            gap: \"0.5rem\",\n                            color: \"var(--text-muted)\",\n                            textTransform: \"uppercase\",\n                            letterSpacing: \"0.08em\",\n                            fontSize: \"0.75rem\",\n                            marginBottom: \"0.6rem\"\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fi__WEBPACK_IMPORTED_MODULE_4__.FiZap, {}, void 0, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                                lineNumber: 89,\n                                columnNumber: 11\n                            }, undefined),\n                            \" Focus Areas\"\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                        lineNumber: 77,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        style: {\n                            display: \"flex\",\n                            flexWrap: \"wrap\",\n                            gap: \"0.5rem\"\n                        },\n                        children: focusAreas.map((area)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.span, {\n                                className: \"tag\",\n                                whileHover: {\n                                    scale: 1.05\n                                },\n                                transition: {\n                                    duration: 0.2\n                                },\n                                children: area\n                            }, area, false, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                                lineNumber: 93,\n                                columnNumber: 13\n                            }, undefined)\n                        )\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                        lineNumber: 91,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n                lineNumber: 76,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/components/Summary.js\",\n        lineNumber: 42,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Summary);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QkFBQ1EsU0FBUyxFQUFFLENBQVM7Z0JBQUMsQ0FBQzswQkFFOUIxQyxRQUFRLEdBQUcsQ0FBVyxhQUFHLENBQWlCOzs7Ozs7d0ZBSTlDMkMsQ0FBRztnQkFBQ1QsS0FBSyxFQUFFLENBQUM7b0JBQUNRLFNBQVMsRUFBRSxDQUFRO2dCQUFDLENBQUM7O2dHQUNoQ0MsQ0FBRzt3QkFDRlQsS0FBSyxFQUFFLENBQUM7NEJBQ05VLE9BQU8sRUFBRSxDQUFhOzRCQUN0QkMsVUFBVSxFQUFFLENBQVE7NEJBQ3BCQyxHQUFHLEVBQUUsQ0FBUTs0QkFDYlgsS0FBSyxFQUFFLENBQW1COzRCQUMxQlksYUFBYSxFQUFFLENBQVc7NEJBQzFCQyxhQUFhLEVBQUUsQ0FBUTs0QkFDdkJDLFFBQVEsRUFBRSxDQUFTOzRCQUNuQkMsWUFBWSxFQUFFLENBQVE7d0JBQ3hCLENBQUM7O3dHQUVBeEQsaURBQUs7Ozs7OzRCQUFHLENBQ1g7Ozs7Ozs7Z0dBQ0NpRCxDQUFHO3dCQUFDVCxLQUFLLEVBQUUsQ0FBQzs0QkFBQ1UsT0FBTyxFQUFFLENBQU07NEJBQUVPLFFBQVEsRUFBRSxDQUFNOzRCQUFFTCxHQUFHLEVBQUUsQ0FBUTt3QkFBQyxDQUFDO2tDQUM3RHJDLFVBQVUsQ0FBQ1MsR0FBRyxFQUFFa0MsSUFBSSwrRUFDbEI3RCxzREFBVztnQ0FFVjZCLFNBQVMsRUFBQyxDQUFLO2dDQUNma0MsVUFBVSxFQUFFLENBQUM7b0NBQUNiLEtBQUssRUFBRSxJQUFJO2dDQUFDLENBQUM7Z0NBQzNCZCxVQUFVLEVBQUUsQ0FBQztvQ0FBQ0MsUUFBUSxFQUFFLEdBQUc7Z0NBQUMsQ0FBQzswQ0FFNUJ3QixJQUFJOytCQUxBQSxJQUFJOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVl2QixDQUFDO0FBRUQsaUVBQWV0RCxPQUFPLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnRlcmFjdGl2ZS1jdi8uL2NvbXBvbmVudHMvU3VtbWFyeS5qcz81N2UzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZU1lbW8sIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gXCJmcmFtZXItbW90aW9uXCI7XG5pbXBvcnQgeyBGYVVzZXIgfSBmcm9tIFwicmVhY3QtaWNvbnMvZmFcIjtcbmltcG9ydCB7IEZpWmFwIH0gZnJvbSBcInJlYWN0LWljb25zL2ZpXCI7XG5cbmNvbnN0IEZPQ1VTX0tFWVdPUkRTID0gW1xuICB7IGxhYmVsOiBcIkFJLVBvd2VyZWQgUHJvZHVjdHNcIiwgdGVybXM6IFtcImFpLXBvd2VyZWRcIiwgXCJtYWNoaW5lIGxlYXJuaW5nXCJdIH0sXG4gIHsgbGFiZWw6IFwiRnVsbHN0YWNrIEVuZ2luZWVyaW5nXCIsIHRlcm1zOiBbXCJmdWxsLXN0YWNrXCIsIFwiZnVsbHN0YWNrXCIsIFwibmV4dC5qc1wiXSB9LFxuICB7IGxhYmVsOiBcIlByb2R1Y3QgTGVhZGVyc2hpcFwiLCB0ZXJtczogW1wiZm91bmRlZFwiLCBcImRldmVsb3BlZFwiLCBcImJ1aWx0XCJdIH0sXG4gIHsgbGFiZWw6IFwiRGF0YS1Ecml2ZW4gRGVjaXNpb25zXCIsIHRlcm1zOiBbXCJkYXRhLWRyaXZlblwiLCBcInByZWRpY3RcIl0gfSxcbiAgeyBsYWJlbDogXCJTY2FsYWJsZSBTeXN0ZW1zXCIsIHRlcm1zOiBbXCJzY2FsYWJsZVwiLCBcImRlcGxveWVkXCIsIFwicHJvZHVjdGlvblwiXSB9LFxuXTtcblxuY29uc3QgU3VtbWFyeSA9ICh7IHN1bW1hcnkgfSkgPT4ge1xuICBjb25zdCBbZXhwYW5kZWQsIHNldEV4cGFuZGVkXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCBzbmlwcGV0ID0gdXNlTWVtbygoKSA9PiB7XG4gICAgY29uc3QgbWF4TGVuZ3RoID0gMjYwO1xuICAgIGlmIChzdW1tYXJ5Lmxlbmd0aCA8PSBtYXhMZW5ndGgpIHtcbiAgICAgIHJldHVybiBzdW1tYXJ5O1xuICAgIH1cblxuICAgIGNvbnN0IHRyaW1tZWQgPSBzdW1tYXJ5LnNsaWNlKDAsIG1heExlbmd0aCk7XG4gICAgY29uc3QgbGFzdFNwYWNlID0gdHJpbW1lZC5sYXN0SW5kZXhPZihcIiBcIik7XG4gICAgcmV0dXJuIGAke3RyaW1tZWQuc2xpY2UoMCwgbGFzdFNwYWNlKX3igKZgO1xuICB9LCBbc3VtbWFyeV0pO1xuXG4gIGNvbnN0IGZvY3VzQXJlYXMgPSB1c2VNZW1vKCgpID0+IHtcbiAgICBjb25zdCBsb3dlclN1bW1hcnkgPSBzdW1tYXJ5LnRvTG93ZXJDYXNlKCk7XG4gICAgY29uc3QgbWF0Y2hlZCA9IEZPQ1VTX0tFWVdPUkRTLmZpbHRlcigoa2V5d29yZCkgPT5cbiAgICAgIGtleXdvcmQudGVybXMuc29tZSgodGVybSkgPT4gbG93ZXJTdW1tYXJ5LmluY2x1ZGVzKHRlcm0pKVxuICAgICkubWFwKChrZXl3b3JkKSA9PiBrZXl3b3JkLmxhYmVsKTtcblxuICAgIGlmIChtYXRjaGVkLmxlbmd0aCA+IDApIHtcbiAgICAgIHJldHVybiBtYXRjaGVkO1xuICAgIH1cblxuICAgIHJldHVybiBbXCJJbXBhY3RmdWwgV2ViIEV4cGVyaWVuY2VzXCIsIFwiVXNlci1DZW50cmljIERldmVsb3BtZW50XCIsIFwiQ29udGludW91cyBMZWFybmluZ1wiXTtcbiAgfSwgW3N1bW1hcnldKTtcblxuICByZXR1cm4gKFxuICAgIDxtb3Rpb24uc2VjdGlvblxuICAgICAgY2xhc3NOYW1lPVwic2VjdGlvbiBjYXJkXCJcbiAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjQgfX1cbiAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHk6IDAgfX1cbiAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX1cbiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNDUgfX1cbiAgICA+XG4gICAgICA8aDI+XG4gICAgICAgIDxGYVVzZXIgLz4gU3VtbWFyeVxuICAgICAgPC9oMj5cbiAgICAgIDxBbmltYXRlUHJlc2VuY2UgaW5pdGlhbD17ZmFsc2V9IG1vZGU9XCJ3YWl0XCI+XG4gICAgICAgIDxtb3Rpb24ucFxuICAgICAgICAgIGtleT17ZXhwYW5kZWQgPyBcImV4cGFuZGVkXCIgOiBcImNvbGxhcHNlZFwifVxuICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogOCB9fVxuICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgeTogMCB9fVxuICAgICAgICAgIGV4aXQ9e3sgb3BhY2l0eTogMCwgeTogLTggfX1cbiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjI1IH19XG4gICAgICAgICAgc3R5bGU9e3sgY29sb3I6IFwidmFyKC0tdGV4dC1tdXRlZClcIiB9fVxuICAgICAgICA+XG4gICAgICAgICAge2V4cGFuZGVkID8gc3VtbWFyeSA6IHNuaXBwZXR9XG4gICAgICAgIDwvbW90aW9uLnA+XG4gICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cbiAgICAgIHtzdW1tYXJ5Lmxlbmd0aCA+IHNuaXBwZXQubGVuZ3RoICYmIChcbiAgICAgICAgPG1vdGlvbi5idXR0b25cbiAgICAgICAgICB0eXBlPVwiYnV0dG9uXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ0aW1lbGluZS10b2dnbGVcIlxuICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEV4cGFuZGVkKChjdXJyZW50KSA9PiAhY3VycmVudCl9XG4gICAgICAgICAgd2hpbGVUYXA9e3sgc2NhbGU6IDAuOTYgfX1cbiAgICAgICAgICBzdHlsZT17eyBtYXJnaW5Ub3A6IFwiMC43NXJlbVwiIH19XG4gICAgICAgID5cbiAgICAgICAgICB7ZXhwYW5kZWQgPyBcIlNob3cgTGVzc1wiIDogXCJSZWFkIEZ1bGwgU3RvcnlcIn1cbiAgICAgICAgPC9tb3Rpb24uYnV0dG9uPlxuICAgICAgKX1cblxuICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Ub3A6IFwiMS40cmVtXCIgfX0+XG4gICAgICAgIDxkaXZcbiAgICAgICAgICBzdHlsZT17e1xuICAgICAgICAgICAgZGlzcGxheTogXCJpbmxpbmUtZmxleFwiLFxuICAgICAgICAgICAgYWxpZ25JdGVtczogXCJjZW50ZXJcIixcbiAgICAgICAgICAgIGdhcDogXCIwLjVyZW1cIixcbiAgICAgICAgICAgIGNvbG9yOiBcInZhcigtLXRleHQtbXV0ZWQpXCIsXG4gICAgICAgICAgICB0ZXh0VHJhbnNmb3JtOiBcInVwcGVyY2FzZVwiLFxuICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogXCIwLjA4ZW1cIixcbiAgICAgICAgICAgIGZvbnRTaXplOiBcIjAuNzVyZW1cIixcbiAgICAgICAgICAgIG1hcmdpbkJvdHRvbTogXCIwLjZyZW1cIixcbiAgICAgICAgICB9fVxuICAgICAgICA+XG4gICAgICAgICAgPEZpWmFwIC8+IEZvY3VzIEFyZWFzXG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6IFwiZmxleFwiLCBmbGV4V3JhcDogXCJ3cmFwXCIsIGdhcDogXCIwLjVyZW1cIiB9fT5cbiAgICAgICAgICB7Zm9jdXNBcmVhcy5tYXAoKGFyZWEpID0+IChcbiAgICAgICAgICAgIDxtb3Rpb24uc3BhblxuICAgICAgICAgICAgICBrZXk9e2FyZWF9XG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cInRhZ1wiXG4gICAgICAgICAgICAgIHdoaWxlSG92ZXI9e3sgc2NhbGU6IDEuMDUgfX1cbiAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC4yIH19XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIHthcmVhfVxuICAgICAgICAgICAgPC9tb3Rpb24uc3Bhbj5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L21vdGlvbi5zZWN0aW9uPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgU3VtbWFyeTtcblxuIl0sIm5hbWVzIjpbInVzZU1lbW8iLCJ1c2VTdGF0ZSIsIm1vdGlvbiIsIkFuaW1hdGVQcmVzZW5jZSIsIkZhVXNlciIsIkZpWmFwIiwiRk9DVVNfS0VZV09SRFMiLCJsYWJlbCIsInRlcm1zIiwiU3VtbWFyeSIsInN1bW1hcnkiLCJleHBhbmRlZCIsInNldEV4cGFuZGVkIiwic25pcHBldCIsIm1heExlbmd0aCIsImxlbmd0aCIsInRyaW1tZWQiLCJzbGljZSIsImxhc3RTcGFjZSIsImxhc3RJbmRleE9mIiwiZm9jdXNBcmVhcyIsImxvd2VyU3VtbWFyeSIsInRvTG93ZXJDYXNlIiwibWF0Y2hlZCIsImZpbHRlciIsImtleXdvcmQiLCJzb21lIiwidGVybSIsImluY2x1ZGVzIiwibWFwIiwic2VjdGlvbiIsImNsYXNzTmFtZSIsImluaXRpYWwiLCJvcGFjaXR5IiwieSIsIndoaWxlSW5WaWV3Iiwidmlld3BvcnQiLCJvbmNlIiwidHJhbnNpdGlvbiIsImR1cmF0aW9uIiwiaDIiLCJtb2RlIiwicCIsImFuaW1hdGUiLCJleGl0Iiwic3R5bGUiLCJjb2xvciIsImJ1dHRvbiIsInR5cGUiLCJvbkNsaWNrIiwiY3VycmVudCIsIndoaWxlVGFwIiwic2NhbGUiLCJtYXJnaW5Ub3AiLCJkaXYiLCJkaXNwbGF5IiwiYWxpZ25JdGVtcyIsImdhcCIsInRleHRUcmFuc2Zvcm0iLCJsZXR0ZXJTcGFjaW5nIiwiZm9udFNpemUiLCJtYXJnaW5Cb3R0b20iLCJmbGV4V3JhcCIsImFyZWEiLCJzcGFuIiwid2hpbGVIb3ZlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Summary.js\n");
 
 /***/ }),
 
-/***/ 678:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./context/ThemeContext.js":
+/*!*********************************!*\
+  !*** ./context/ThemeContext.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Home),
-/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _data_cv_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(848);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(673);
-/* harmony import */ var _components_Summary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(923);
-/* harmony import */ var _components_Experience__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(693);
-/* harmony import */ var _components_Education__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(437);
-/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(257);
-/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(433);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Header__WEBPACK_IMPORTED_MODULE_3__, _components_Summary__WEBPACK_IMPORTED_MODULE_4__, _components_Experience__WEBPACK_IMPORTED_MODULE_5__, _components_Education__WEBPACK_IMPORTED_MODULE_6__, _components_Skills__WEBPACK_IMPORTED_MODULE_7__, _components_Projects__WEBPACK_IMPORTED_MODULE_8__]);
-([_components_Header__WEBPACK_IMPORTED_MODULE_3__, _components_Summary__WEBPACK_IMPORTED_MODULE_4__, _components_Experience__WEBPACK_IMPORTED_MODULE_5__, _components_Education__WEBPACK_IMPORTED_MODULE_6__, _components_Skills__WEBPACK_IMPORTED_MODULE_7__, _components_Projects__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
-
-
-
-
-
-
-
-
-const getSummarySnippet = (summary)=>{
-    if (!summary) {
-        return "";
-    }
-    const sentences = summary.split(". ");
-    const snippet = sentences.slice(0, 2).join(". ");
-    return snippet.endsWith(".") ? snippet : `${snippet}.`;
-};
-const getUniqueCountries = (experience = [])=>{
-    const toCountry = (location)=>{
-        if (!location) return null;
-        const parts = location.split(",");
-        return parts[parts.length - 1].trim();
-    };
-    return experience.reduce((acc, job)=>{
-        const country = toCountry(job.location);
-        if (country) {
-            acc.add(country);
-        }
-        return acc;
-    }, new Set());
-};
-function Home({ cv  }) {
-    const summarySnippet = getSummarySnippet(cv.summary);
-    const uniqueCountries = getUniqueCountries(cv.experience);
-    const teachingRoles = cv.experience.filter((job)=>job.title.toLowerCase().includes("assistant")
-    ).length;
-    const stats = [
-        {
-            label: "Products Shipped",
-            value: `${cv.projects.length}+`
-        },
-        {
-            label: "Core Technologies",
-            value: cv.skills.length
-        },
-        {
-            label: "Teaching Roles",
-            value: teachingRoles
-        },
-        {
-            label: "Countries Collaborated",
-            value: uniqueCountries.size
-        }, 
-    ];
-    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "container",
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("title", {
-                        children: [
-                            cv.name,
-                            " | ",
-                            cv.title
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                        name: "description",
-                        content: `Interactive CV for ${cv.name}`
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "icon",
-                        href: "/favicon.ico"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Header__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-                        name: cv.name,
-                        title: cv.title,
-                        contact: cv.contact,
-                        profilePicture: cv.profilePicture,
-                        stats: stats,
-                        summarySnippet: summarySnippet
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "main-content-grid",
-                        children: [
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("aside", {
-                                className: "sidebar-column",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Summary__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                        summary: cv.summary
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Skills__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
-                                        skills: cv.skills
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                                className: "main-column",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Experience__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        experience: cv.experience
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Projects__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
-                                        projects: cv.projects
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Education__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                                        education: cv.education
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    }));
-};
-async function getStaticProps() {
-    return {
-        props: {
-            cv: _data_cv_json__WEBPACK_IMPORTED_MODULE_2__
-        }
-    };
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ThemeProvider\": () => (/* binding */ ThemeProvider),\n/* harmony export */   \"useTheme\": () => (/* binding */ useTheme)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst ThemeContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({\n    theme: \"light\",\n    toggleTheme: ()=>{}\n});\nconst STORAGE_KEY = \"interactive-cv-theme\";\nconst getPreferredTheme = ()=>{\n    if (true) {\n        return \"light\";\n    }\n    const storedTheme = window.localStorage.getItem(STORAGE_KEY);\n    if (storedTheme === \"light\" || storedTheme === \"dark\") {\n        return storedTheme;\n    }\n    return \"light\";\n};\nconst ThemeProvider = ({ children  })=>{\n    const { 0: theme , 1: setTheme  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"light\");\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        setTheme(getPreferredTheme());\n    }, []);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        if (typeof document === \"undefined\") {\n            return;\n        }\n        if (theme === \"light\") {\n            delete document.documentElement.dataset.theme;\n        } else {\n            document.documentElement.dataset.theme = theme;\n        }\n        window.localStorage.setItem(STORAGE_KEY, theme);\n    }, [\n        theme\n    ]);\n    const toggleTheme = ()=>{\n        setTheme((previous)=>previous === \"light\" ? \"dark\" : \"light\"\n        );\n    };\n    const value = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>({\n            theme,\n            toggleTheme\n        })\n    , [\n        theme\n    ]);\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(ThemeContext.Provider, {\n        value: value,\n        children: children\n    }, void 0, false, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/context/ThemeContext.js\",\n        lineNumber: 50,\n        columnNumber: 5\n    }, undefined));\n};\nconst useTheme = ()=>(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(ThemeContext)\n;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0L1RoZW1lQ29udGV4dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQStFO0FBRS9FLEtBQUssQ0FBQ0ssWUFBWSxpQkFBR0wsb0RBQWEsQ0FBQyxDQUFDO0lBQ2xDTSxLQUFLLEVBQUUsQ0FBTztJQUNkQyxXQUFXLE1BQVEsQ0FBQyxDQUFDO0FBQ3ZCLENBQUM7QUFFRCxLQUFLLENBQUNDLFdBQVcsR0FBRyxDQUFzQjtBQUUxQyxLQUFLLENBQUNDLGlCQUFpQixPQUFTLENBQUM7SUFDL0IsRUFBRSxFQUFFLElBQTZCLEVBQUUsQ0FBQztRQUNsQyxNQUFNLENBQUMsQ0FBTztJQUNoQixDQUFDO0lBRUQsS0FBSyxDQUFDQyxXQUFXLEdBQUdDLE1BQU0sQ0FBQ0MsWUFBWSxDQUFDQyxPQUFPLENBQUNMLFdBQVc7SUFDM0QsRUFBRSxFQUFFRSxXQUFXLEtBQUssQ0FBTyxVQUFJQSxXQUFXLEtBQUssQ0FBTSxPQUFFLENBQUM7UUFDdEQsTUFBTSxDQUFDQSxXQUFXO0lBQ3BCLENBQUM7SUFFRCxNQUFNLENBQUMsQ0FBTztBQUNoQixDQUFDO0FBRU0sS0FBSyxDQUFDSSxhQUFhLElBQUksQ0FBQyxDQUFDQyxRQUFRLEVBQUMsQ0FBQyxHQUFLLENBQUM7SUFDOUMsS0FBSyxNQUFFVCxLQUFLLE1BQUVVLFFBQVEsTUFBSVosK0NBQVEsQ0FBQyxDQUFPO0lBRTFDRixnREFBUyxLQUFPLENBQUM7UUFDZmMsUUFBUSxDQUFDUCxpQkFBaUI7SUFDNUIsQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUVMUCxnREFBUyxLQUFPLENBQUM7UUFDZixFQUFFLEVBQUUsTUFBTSxDQUFDZSxRQUFRLEtBQUssQ0FBVyxZQUFFLENBQUM7WUFDcEMsTUFBTTtRQUNSLENBQUM7UUFFRCxFQUFFLEVBQUVYLEtBQUssS0FBSyxDQUFPLFFBQUUsQ0FBQztZQUN0QixNQUFNLENBQUNXLFFBQVEsQ0FBQ0MsZUFBZSxDQUFDQyxPQUFPLENBQUNiLEtBQUs7UUFDL0MsQ0FBQyxNQUFNLENBQUM7WUFDTlcsUUFBUSxDQUFDQyxlQUFlLENBQUNDLE9BQU8sQ0FBQ2IsS0FBSyxHQUFHQSxLQUFLO1FBQ2hELENBQUM7UUFDREssTUFBTSxDQUFDQyxZQUFZLENBQUNRLE9BQU8sQ0FBQ1osV0FBVyxFQUFFRixLQUFLO0lBQ2hELENBQUMsRUFBRSxDQUFDQTtRQUFBQSxLQUFLO0lBQUEsQ0FBQztJQUVWLEtBQUssQ0FBQ0MsV0FBVyxPQUFTLENBQUM7UUFDekJTLFFBQVEsRUFBRUssUUFBUSxHQUFNQSxRQUFRLEtBQUssQ0FBTyxTQUFHLENBQU0sUUFBRyxDQUFPOztJQUNqRSxDQUFDO0lBRUQsS0FBSyxDQUFDQyxLQUFLLEdBQUduQiw4Q0FBTyxNQUFRLENBQUM7WUFBQ0csS0FBSztZQUFFQyxXQUFXO1FBQUMsQ0FBQztNQUFHLENBQUNEO1FBQUFBLEtBQUs7SUFBQSxDQUFDO0lBRTdELE1BQU0sNkVBQ0hELFlBQVksQ0FBQ2tCLFFBQVE7UUFBQ0QsS0FBSyxFQUFFQSxLQUFLO2tCQUFHUCxRQUFROzs7Ozs7QUFFbEQsQ0FBQztBQUVNLEtBQUssQ0FBQ1MsUUFBUSxPQUFTdkIsaURBQVUsQ0FBQ0ksWUFBWSIsInNvdXJjZXMiOlsid2VicGFjazovL2ludGVyYWN0aXZlLWN2Ly4vY29udGV4dC9UaGVtZUNvbnRleHQuanM/NjYzNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVDb250ZXh0LCB1c2VDb250ZXh0LCB1c2VFZmZlY3QsIHVzZU1lbW8sIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFRoZW1lQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoe1xuICB0aGVtZTogXCJsaWdodFwiLFxuICB0b2dnbGVUaGVtZTogKCkgPT4ge30sXG59KTtcblxuY29uc3QgU1RPUkFHRV9LRVkgPSBcImludGVyYWN0aXZlLWN2LXRoZW1lXCI7XG5cbmNvbnN0IGdldFByZWZlcnJlZFRoZW1lID0gKCkgPT4ge1xuICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gXCJ1bmRlZmluZWRcIikge1xuICAgIHJldHVybiBcImxpZ2h0XCI7XG4gIH1cblxuICBjb25zdCBzdG9yZWRUaGVtZSA9IHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbShTVE9SQUdFX0tFWSk7XG4gIGlmIChzdG9yZWRUaGVtZSA9PT0gXCJsaWdodFwiIHx8IHN0b3JlZFRoZW1lID09PSBcImRhcmtcIikge1xuICAgIHJldHVybiBzdG9yZWRUaGVtZTtcbiAgfVxuXG4gIHJldHVybiBcImxpZ2h0XCI7XG59O1xuXG5leHBvcnQgY29uc3QgVGhlbWVQcm92aWRlciA9ICh7IGNoaWxkcmVuIH0pID0+IHtcbiAgY29uc3QgW3RoZW1lLCBzZXRUaGVtZV0gPSB1c2VTdGF0ZShcImxpZ2h0XCIpO1xuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgc2V0VGhlbWUoZ2V0UHJlZmVycmVkVGhlbWUoKSk7XG4gIH0sIFtdKTtcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIGlmICh0eXBlb2YgZG9jdW1lbnQgPT09IFwidW5kZWZpbmVkXCIpIHtcbiAgICAgIHJldHVybjtcbiAgICB9XG5cbiAgICBpZiAodGhlbWUgPT09IFwibGlnaHRcIikge1xuICAgICAgZGVsZXRlIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5kYXRhc2V0LnRoZW1lO1xuICAgIH0gZWxzZSB7XG4gICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuZGF0YXNldC50aGVtZSA9IHRoZW1lO1xuICAgIH1cbiAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oU1RPUkFHRV9LRVksIHRoZW1lKTtcbiAgfSwgW3RoZW1lXSk7XG5cbiAgY29uc3QgdG9nZ2xlVGhlbWUgPSAoKSA9PiB7XG4gICAgc2V0VGhlbWUoKHByZXZpb3VzKSA9PiAocHJldmlvdXMgPT09IFwibGlnaHRcIiA/IFwiZGFya1wiIDogXCJsaWdodFwiKSk7XG4gIH07XG5cbiAgY29uc3QgdmFsdWUgPSB1c2VNZW1vKCgpID0+ICh7IHRoZW1lLCB0b2dnbGVUaGVtZSB9KSwgW3RoZW1lXSk7XG5cbiAgcmV0dXJuIChcbiAgICA8VGhlbWVDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXt2YWx1ZX0+e2NoaWxkcmVufTwvVGhlbWVDb250ZXh0LlByb3ZpZGVyPlxuICApO1xufTtcblxuZXhwb3J0IGNvbnN0IHVzZVRoZW1lID0gKCkgPT4gdXNlQ29udGV4dChUaGVtZUNvbnRleHQpO1xuIl0sIm5hbWVzIjpbImNyZWF0ZUNvbnRleHQiLCJ1c2VDb250ZXh0IiwidXNlRWZmZWN0IiwidXNlTWVtbyIsInVzZVN0YXRlIiwiVGhlbWVDb250ZXh0IiwidGhlbWUiLCJ0b2dnbGVUaGVtZSIsIlNUT1JBR0VfS0VZIiwiZ2V0UHJlZmVycmVkVGhlbWUiLCJzdG9yZWRUaGVtZSIsIndpbmRvdyIsImxvY2FsU3RvcmFnZSIsImdldEl0ZW0iLCJUaGVtZVByb3ZpZGVyIiwiY2hpbGRyZW4iLCJzZXRUaGVtZSIsImRvY3VtZW50IiwiZG9jdW1lbnRFbGVtZW50IiwiZGF0YXNldCIsInNldEl0ZW0iLCJwcmV2aW91cyIsInZhbHVlIiwiUHJvdmlkZXIiLCJ1c2VUaGVtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./context/ThemeContext.js\n");
 
 /***/ }),
 
-/***/ 968:
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _data_cv_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/cv.json */ \"./data/cv.json\");\n/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ \"./components/Header.js\");\n/* harmony import */ var _components_Summary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Summary */ \"./components/Summary.js\");\n/* harmony import */ var _components_Experience__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Experience */ \"./components/Experience.js\");\n/* harmony import */ var _components_Education__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Education */ \"./components/Education.js\");\n/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Skills */ \"./components/Skills.js\");\n/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Projects */ \"./components/Projects.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Header__WEBPACK_IMPORTED_MODULE_3__, _components_Summary__WEBPACK_IMPORTED_MODULE_4__, _components_Experience__WEBPACK_IMPORTED_MODULE_5__, _components_Education__WEBPACK_IMPORTED_MODULE_6__, _components_Skills__WEBPACK_IMPORTED_MODULE_7__, _components_Projects__WEBPACK_IMPORTED_MODULE_8__]);\n([_components_Header__WEBPACK_IMPORTED_MODULE_3__, _components_Summary__WEBPACK_IMPORTED_MODULE_4__, _components_Experience__WEBPACK_IMPORTED_MODULE_5__, _components_Education__WEBPACK_IMPORTED_MODULE_6__, _components_Skills__WEBPACK_IMPORTED_MODULE_7__, _components_Projects__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\n\n\n\nconst getSummarySnippet = (summary)=>{\n    if (!summary) {\n        return \"\";\n    }\n    const sentences = summary.split(\". \");\n    const snippet = sentences.slice(0, 2).join(\". \");\n    return snippet.endsWith(\".\") ? snippet : `${snippet}.`;\n};\nconst getUniqueCountries = (experience = [])=>{\n    const toCountry = (location)=>{\n        if (!location) return null;\n        const parts = location.split(\",\");\n        return parts[parts.length - 1].trim();\n    };\n    return experience.reduce((acc, job)=>{\n        const country = toCountry(job.location);\n        if (country) {\n            acc.add(country);\n        }\n        return acc;\n    }, new Set());\n};\nfunction Home({ cv  }) {\n    const summarySnippet = getSummarySnippet(cv.summary);\n    const uniqueCountries = getUniqueCountries(cv.experience);\n    const teachingRoles = cv.experience.filter((job)=>job.title.toLowerCase().includes(\"assistant\")\n    ).length;\n    const stats = [\n        {\n            label: \"Products Shipped\",\n            value: `${cv.projects.length}+`\n        },\n        {\n            label: \"Core Technologies\",\n            value: cv.skills.length\n        },\n        {\n            label: \"Teaching Roles\",\n            value: teachingRoles\n        },\n        {\n            label: \"Countries Collaborated\",\n            value: uniqueCountries.size\n        }, \n    ];\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"container\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: [\n                            cv.name,\n                            \" | \",\n                            cv.title\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                        lineNumber: 54,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"description\",\n                        content: `Interactive CV for ${cv.name}`\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                        lineNumber: 57,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/favicon.ico\"\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                        lineNumber: 58,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                lineNumber: 53,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Header__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                        name: cv.name,\n                        title: cv.title,\n                        contact: cv.contact,\n                        profilePicture: cv.profilePicture,\n                        stats: stats,\n                        summarySnippet: summarySnippet\n                    }, void 0, false, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                        lineNumber: 62,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"main-content-grid\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"aside\", {\n                                className: \"sidebar-column\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Summary__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                        summary: cv.summary\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                        lineNumber: 72,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Skills__WEBPACK_IMPORTED_MODULE_7__[\"default\"], {\n                                        skills: cv.skills\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                        lineNumber: 73,\n                                        columnNumber: 13\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                lineNumber: 71,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n                                className: \"main-column\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Experience__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                                        experience: cv.experience\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                        lineNumber: 76,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Projects__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {\n                                        projects: cv.projects\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                        lineNumber: 77,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Education__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n                                        education: cv.education\n                                    }, void 0, false, {\n                                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                        lineNumber: 78,\n                                        columnNumber: 13\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                                lineNumber: 75,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                        lineNumber: 70,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n                lineNumber: 61,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/kerimhalilovic/Documents/GitHub/CV-Kerim/pages/index.js\",\n        lineNumber: 52,\n        columnNumber: 5\n    }, this));\n};\nasync function getStaticProps() {\n    return {\n        props: {\n            cv: _data_cv_json__WEBPACK_IMPORTED_MODULE_2__\n        }\n    };\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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Q0FBTTtRQUFDLENBQUM7SUFBQyxDQUFDO0FBQ2xDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnRlcmFjdGl2ZS1jdi8uL3BhZ2VzL2luZGV4LmpzP2JlZTciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IGN2RGF0YSBmcm9tIFwiLi4vZGF0YS9jdi5qc29uXCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0hlYWRlclwiO1xuaW1wb3J0IFN1bW1hcnkgZnJvbSBcIi4uL2NvbXBvbmVudHMvU3VtbWFyeVwiO1xuaW1wb3J0IEV4cGVyaWVuY2UgZnJvbSBcIi4uL2NvbXBvbmVudHMvRXhwZXJpZW5jZVwiO1xuaW1wb3J0IEVkdWNhdGlvbiBmcm9tIFwiLi4vY29tcG9uZW50cy9FZHVjYXRpb25cIjtcbmltcG9ydCBTa2lsbHMgZnJvbSBcIi4uL2NvbXBvbmVudHMvU2tpbGxzXCI7XG5pbXBvcnQgUHJvamVjdHMgZnJvbSBcIi4uL2NvbXBvbmVudHMvUHJvamVjdHNcIjtcblxuY29uc3QgZ2V0U3VtbWFyeVNuaXBwZXQgPSAoc3VtbWFyeSkgPT4ge1xuICBpZiAoIXN1bW1hcnkpIHtcbiAgICByZXR1cm4gXCJcIjtcbiAgfVxuXG4gIGNvbnN0IHNlbnRlbmNlcyA9IHN1bW1hcnkuc3BsaXQoXCIuIFwiKTtcbiAgY29uc3Qgc25pcHBldCA9IHNlbnRlbmNlcy5zbGljZSgwLCAyKS5qb2luKFwiLiBcIik7XG4gIHJldHVybiBzbmlwcGV0LmVuZHNXaXRoKFwiLlwiKSA/IHNuaXBwZXQgOiBgJHtzbmlwcGV0fS5gO1xufTtcblxuY29uc3QgZ2V0VW5pcXVlQ291bnRyaWVzID0gKGV4cGVyaWVuY2UgPSBbXSkgPT4ge1xuICBjb25zdCB0b0NvdW50cnkgPSAobG9jYXRpb24pID0+IHtcbiAgICBpZiAoIWxvY2F0aW9uKSByZXR1cm4gbnVsbDtcbiAgICBjb25zdCBwYXJ0cyA9IGxvY2F0aW9uLnNwbGl0KFwiLFwiKTtcbiAgICByZXR1cm4gcGFydHNbcGFydHMubGVuZ3RoIC0gMV0udHJpbSgpO1xuICB9O1xuXG4gIHJldHVybiBleHBlcmllbmNlLnJlZHVjZSgoYWNjLCBqb2IpID0+IHtcbiAgICBjb25zdCBjb3VudHJ5ID0gdG9Db3VudHJ5KGpvYi5sb2NhdGlvbik7XG4gICAgaWYgKGNvdW50cnkpIHtcbiAgICAgIGFjYy5hZGQoY291bnRyeSk7XG4gICAgfVxuICAgIHJldHVybiBhY2M7XG4gIH0sIG5ldyBTZXQoKSk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKHsgY3YgfSkge1xuICBjb25zdCBzdW1tYXJ5U25pcHBldCA9IGdldFN1bW1hcnlTbmlwcGV0KGN2LnN1bW1hcnkpO1xuICBjb25zdCB1bmlxdWVDb3VudHJpZXMgPSBnZXRVbmlxdWVDb3VudHJpZXMoY3YuZXhwZXJpZW5jZSk7XG5cbiAgY29uc3QgdGVhY2hpbmdSb2xlcyA9IGN2LmV4cGVyaWVuY2UuZmlsdGVyKChqb2IpID0+XG4gICAgam9iLnRpdGxlLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoXCJhc3Npc3RhbnRcIilcbiAgKS5sZW5ndGg7XG5cbiAgY29uc3Qgc3RhdHMgPSBbXG4gICAgeyBsYWJlbDogXCJQcm9kdWN0cyBTaGlwcGVkXCIsIHZhbHVlOiBgJHtjdi5wcm9qZWN0cy5sZW5ndGh9K2AgfSxcbiAgICB7IGxhYmVsOiBcIkNvcmUgVGVjaG5vbG9naWVzXCIsIHZhbHVlOiBjdi5za2lsbHMubGVuZ3RoIH0sXG4gICAgeyBsYWJlbDogXCJUZWFjaGluZyBSb2xlc1wiLCB2YWx1ZTogdGVhY2hpbmdSb2xlcyB9LFxuICAgIHsgbGFiZWw6IFwiQ291bnRyaWVzIENvbGxhYm9yYXRlZFwiLCB2YWx1ZTogdW5pcXVlQ291bnRyaWVzLnNpemUgfSxcbiAgXTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPlxuICAgICAgICAgIHtjdi5uYW1lfSB8IHtjdi50aXRsZX1cbiAgICAgICAgPC90aXRsZT5cbiAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17YEludGVyYWN0aXZlIENWIGZvciAke2N2Lm5hbWV9YH0gLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgPC9IZWFkPlxuXG4gICAgICA8bWFpbj5cbiAgICAgICAgPEhlYWRlclxuICAgICAgICAgIG5hbWU9e2N2Lm5hbWV9XG4gICAgICAgICAgdGl0bGU9e2N2LnRpdGxlfVxuICAgICAgICAgIGNvbnRhY3Q9e2N2LmNvbnRhY3R9XG4gICAgICAgICAgcHJvZmlsZVBpY3R1cmU9e2N2LnByb2ZpbGVQaWN0dXJlfVxuICAgICAgICAgIHN0YXRzPXtzdGF0c31cbiAgICAgICAgICBzdW1tYXJ5U25pcHBldD17c3VtbWFyeVNuaXBwZXR9XG4gICAgICAgIC8+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbi1jb250ZW50LWdyaWRcIj5cbiAgICAgICAgICA8YXNpZGUgY2xhc3NOYW1lPVwic2lkZWJhci1jb2x1bW5cIj5cbiAgICAgICAgICAgIDxTdW1tYXJ5IHN1bW1hcnk9e2N2LnN1bW1hcnl9IC8+XG4gICAgICAgICAgICA8U2tpbGxzIHNraWxscz17Y3Yuc2tpbGxzfSAvPlxuICAgICAgICAgIDwvYXNpZGU+XG4gICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwibWFpbi1jb2x1bW5cIj5cbiAgICAgICAgICAgIDxFeHBlcmllbmNlIGV4cGVyaWVuY2U9e2N2LmV4cGVyaWVuY2V9IC8+XG4gICAgICAgICAgICA8UHJvamVjdHMgcHJvamVjdHM9e2N2LnByb2plY3RzfSAvPlxuICAgICAgICAgICAgPEVkdWNhdGlvbiBlZHVjYXRpb249e2N2LmVkdWNhdGlvbn0gLz5cbiAgICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9tYWluPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U3RhdGljUHJvcHMoKSB7XG4gIHJldHVybiB7IHByb3BzOiB7IGN2OiBjdkRhdGEgfSB9O1xufVxuXG4iXSwibmFtZXMiOlsiSGVhZCIsImN2RGF0YSIsIkhlYWRlciIsIlN1bW1hcnkiLCJFeHBlcmllbmNlIiwiRWR1Y2F0aW9uIiwiU2tpbGxzIiwiUHJvamVjdHMiLCJnZXRTdW1tYXJ5U25pcHBldCIsInN1bW1hcnkiLCJzZW50ZW5jZXMiLCJzcGxpdCIsInNuaXBwZXQiLCJzbGljZSIsImpvaW4iLCJlbmRzV2l0aCIsImdldFVuaXF1ZUNvdW50cmllcyIsImV4cGVyaWVuY2UiLCJ0b0NvdW50cnkiLCJsb2NhdGlvbiIsInBhcnRzIiwibGVuZ3RoIiwidHJpbSIsInJlZHVjZSIsImFjYyIsImpvYiIsImNvdW50cnkiLCJhZGQiLCJTZXQiLCJIb21lIiwiY3YiLCJzdW1tYXJ5U25pcHBldCIsInVuaXF1ZUNvdW50cmllcyIsInRlYWNoaW5nUm9sZXMiLCJmaWx0ZXIiLCJ0aXRsZSIsInRvTG93ZXJDYXNlIiwiaW5jbHVkZXMiLCJzdGF0cyIsImxhYmVsIiwidmFsdWUiLCJwcm9qZWN0cyIsInNraWxscyIsInNpemUiLCJkaXYiLCJjbGFzc05hbWUiLCJuYW1lIiwibWV0YSIsImNvbnRlbnQiLCJsaW5rIiwicmVsIiwiaHJlZiIsIm1haW4iLCJjb250YWN0IiwicHJvZmlsZVBpY3R1cmUiLCJhc2lkZSIsInNlY3Rpb24iLCJlZHVjYXRpb24iLCJnZXRTdGF0aWNQcm9wcyIsInByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 290:
+/***/ "react-icons/fa":
+/*!*********************************!*\
+  !*** external "react-icons/fa" ***!
+  \*********************************/
 /***/ ((module) => {
 
 module.exports = require("react-icons/fa");
 
 /***/ }),
 
-/***/ 750:
+/***/ "react-icons/fi":
+/*!*********************************!*\
+  !*** external "react-icons/fi" ***!
+  \*********************************/
 /***/ ((module) => {
 
 module.exports = require("react-icons/fi");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
-/***/ 197:
+/***/ "framer-motion":
+/*!********************************!*\
+  !*** external "framer-motion" ***!
+  \********************************/
 /***/ ((module) => {
 
 module.exports = import("framer-motion");;
 
 /***/ }),
 
-/***/ 848:
+/***/ "./data/cv.json":
+/*!**********************!*\
+  !*** ./data/cv.json ***!
+  \**********************/
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"name":"Kerim Halilović","title":"Data Science Master\'s Student & Junior Fullstack Developer","profilePicture":"images/profile.jpg","contact":{"email":"khalilovic02@gmail.com","phone":"","linkedin":"https://linkedin.com/in/kerimhalilovic","github":"https://github.com/kerimhalilovic","website":"https://kerim.dev"},"summary":"I’m a Master’s student in Data Science at TU Wien and a Junior Fullstack Developer with hands-on experience in full-stack web development and applied machine learning. I’ve built and deployed several production-grade applications, including Cifra, an AI-powered vehicle valuation platform I founded and developed, using Python, FastAPI, and Next.js to predict real-time vehicle prices across Bosnia & Herzegovina. I’m passionate about building scalable, data-driven systems that solve real-world problems.","experience":[{"company":"TU Wien","title":"Graduate Teaching Assistant","dates":"Oct 2025 - Present","location":"Vienna, Austria","responsibilities":["Assisting in tutoring graduate-level \\"Machine Learning\\" course, covering key topics such as supervised learning, model evaluation, and neural networks.","Collaborated with lecturers in designing and reviewing assignments, providing feedback, and helping maintain the academic quality of the course."]},{"company":"Web Innovators","title":"Software Engineer","dates":"Jun 2017 - Dec 2019","location":"Boston, MA","responsibilities":["Developed and shipped multiple user-facing features for a large-scale e-commerce platform.","Collaborated with designers and product managers to create a seamless user experience.","Improved website performance by optimizing assets and implementing server-side rendering."]},{"company":"University of Sarajevo","title":"Undergraduate Teaching Assistant","dates":"Mar 2023 - Jun 2023","location":"Sarajevo, Bosnia and Herzegovina","responsibilities":["Assisted in tutoring the course \\"Programming Techniques\\", focusing on key aspects of C++ programming.","Provided support to students through guided lab sessions, coding exercises, and one-on-one assistance.","Collaborated with faculty members in preparing course materials and grading assignments."]}],"education":[{"school":"Technische Universität Wien","degree":"Master\'s degree, Data Science","dates":"2024 - 2026","location":"Vienna, Austria"},{"school":"University of Sarajevo","degree":"Bachelor\'s degree, Computer Science and Informatics","dates":"2021 - 2024","location":"Sarajevo, Bosnia and Herzegovina"}],"skills":["JavaScript (ES6+)","TypeScript","React","Next.js","Node.js","HTML5","CSS3 / SASS","GraphQL","REST APIs","Git","Docker","CI/CD"],"projects":[{"name":"Interactive Data Dashboard","description":"A web application for visualizing complex datasets with interactive charts and filters. Built with Next.js and D3.js.","technologies":["Next.js","React","D3.js","TypeScript"],"link":"https://github.com/your-username/project-one"},{"name":"E-commerce Storefront","description":"A modern, fast, and responsive e-commerce site with a full-featured shopping cart and checkout process.","technologies":["React","Redux","Node.js","Express"],"link":"https://github.com/your-username/project-two"}]}');
@@ -1407,7 +170,7 @@ module.exports = JSON.parse('{"name":"Kerim Halilović","title":"Data Science Ma
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [306], () => (__webpack_exec__(678)));
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
